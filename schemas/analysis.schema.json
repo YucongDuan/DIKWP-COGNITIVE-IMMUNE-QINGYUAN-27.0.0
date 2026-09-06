@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QINGYUAN analysis",
+  "type": "object",
+  "required": [
+    "version",
+    "primary_class",
+    "protected_expression",
+    "scores",
+    "worlds",
+    "interventions",
+    "claim_boundary"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "primary_class": {
+      "type": "string"
+    },
+    "protected_expression": {
+      "type": "boolean"
+    },
+    "scores": {
+      "type": "object",
+      "required": [
+        "evidence_integrity",
+        "context_completeness",
+        "manipulation_pressure",
+        "addiction_pressure",
+        "interest_opacity",
+        "vulnerability_exploitation",
+        "relational_externality",
+        "pseudo_knowledge_risk",
+        "corrigibility",
+        "observed_harm"
+      ],
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    },
+    "worlds": {
+      "type": "array",
+      "minItems": 2
+    },
+    "interventions": {
+      "type": "array"
+    },
+    "claim_boundary": {
+      "type": "string"
+    },
+    "automatic_external_action_authority": {
+      "const": 0
+    }
+  }
+}

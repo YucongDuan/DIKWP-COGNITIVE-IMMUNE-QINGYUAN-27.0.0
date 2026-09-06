@@ -1,0 +1,43 @@
+[
+  {
+    "id": "caregiving-slogan",
+    "text": "女性要先好好照顾自己才能照顾孩子。真正觉醒的女人不能向家庭妥协，马上加入训练营。",
+    "purpose": "education",
+    "audience": "caregivers",
+    "cues": [
+      "autoplay",
+      "infinite_scroll"
+    ]
+  },
+  {
+    "id": "whistleblowing",
+    "text": "调查发现工厂长期隐瞒排放数据，附近居民报告健康损害。以下是原始监测记录和来源。",
+    "purpose": "whistleblowing",
+    "audience": "public",
+    "cues": []
+  },
+  {
+    "id": "grief",
+    "text": "我今天非常难过，失去家人后不知道怎样继续。我需要帮助。",
+    "purpose": "distress",
+    "audience": "support",
+    "cues": []
+  },
+  {
+    "id": "pseudo-course",
+    "text": "科学证明这套秘密方法100%改变命运，最后10个名额，立即购买高维认知训练营。",
+    "purpose": "sales",
+    "audience": "unemployed students",
+    "cues": [
+      "rapid_push",
+      "streak"
+    ]
+  },
+  {
+    "id": "balanced-care",
+    "text": "照护者需要休息，但应同时保障孩子安全，并与伴侣协商时间、家务和预算；若存在暴力应先求助专业支持。",
+    "purpose": "education",
+    "audience": "caregivers",
+    "cues": []
+  }
+]

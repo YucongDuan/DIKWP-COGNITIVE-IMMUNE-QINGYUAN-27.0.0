@@ -1,0 +1,1125 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "DIKWP-QINGYUAN-27.0.0-SBOM",
+  "documentNamespace": "https://example.invalid/dikwp/qingyuan/27.0.0/c5f155eb18097f0f",
+  "creationInfo": {
+    "created": "2026-09-06T01:11:14.323157+00:00",
+    "creators": [
+      "Tool: QINGYUAN release builder"
+    ]
+  },
+  "files": [
+    {
+      "SPDXID": "SPDXRef-File-e89b8523062c",
+      "fileName": ".github/ISSUE_TEMPLATE/repro.yml",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a70ed8d7fd51762dbc3a032d755966b052a29c02e5f13d40a037721733c635a6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-7ceee5d954a7",
+      "fileName": ".github/workflows/test.yml",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e639541d5dd96d8c418f1762d5c9448e726820993cf9e307503cfdc3e8a4b776"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2f473ef69010",
+      "fileName": "CITATION.cff",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c1a20c1d7111286b78d2c0009bd66dd8a139867ba3f13f28881888e0b098fd3d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-3f454a98e586",
+      "fileName": "CONTRIBUTING.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2f70fda5ea07d9b3b4211a4e3966781c0ad58c09b52ac141dd24650c032c1c9a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-0398ccd0f492",
+      "fileName": "LICENSE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-fe71871083ca",
+      "fileName": "NOTICE",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "83ba2b7a2548d0fbffe06d49e916707b0359cd289b35a28617eeb637b9df851b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-8ec9a00bfd09",
+      "fileName": "README.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e066825a06b5deb649a095cc114d0140c367ca553f8d15d320c436ee377acb6e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-e5d21eab4d20",
+      "fileName": "README_CN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "561dd57db136fe2f7de7a321048dd421cf13fbc44a851833382b73497cee0a25"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-7c875fef5426",
+      "fileName": "SECURITY.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8d260f8c59cb7f6154830dffba01dde6cf1033d714f38bc7317936cbbce139e2"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-b7155d837abd",
+      "fileName": "app/app.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d43be643147e1aa3c7b999812c9213c7e7075c05f22a4de1e8a12831c4c944e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-42b3d80c2627",
+      "fileName": "app/index.html",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f839862ae8a50b9f4d0e9c5e8a15c005ac4e6f6af83b9bbc54feadbda63afc89"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-6003f0bbde6a",
+      "fileName": "app/rules.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3ab5c7f1091849aa2551875ed2eb8c8508659d2299383c14f42c56e0cfb401d6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2cbc98ccaa45",
+      "fileName": "app/styles.css",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a4bd95bb2da2e0462ffe887a7c456a3b2330512f74d418a898b292a14c4e50fe"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-da91cd19d6bc",
+      "fileName": "assets/Yucong_Duan_DIKWP_QINGYUAN_27.0_Active_Cognitive_Immunity_and_Reality_Repair_System_Report_EN_2026-09-06_page1.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "373a305c24b41757041057bed9d457b70850620ae7e37d7aaf9c85729e5398e0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-522dc48e4fab",
+      "fileName": "assets/client_dashboard.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "dea7b374ad0c44591d6a373fd20781317d3e4e77be2bcb14ca00f214f2305cd5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-23a150e660f8",
+      "fileName": "assets/client_mobile.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "1330eedab4b8b3c7fc4d911a2895640a17e202d9062d6967b644c8fb81e1a579"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-e55276834fff",
+      "fileName": "assets/\u6bb5\u7389\u806a_DIKWP\u6e05\u6e9027.0_\u4e3b\u52a8\u8ba4\u77e5\u514d\u75ab\u4e0e\u73b0\u5b9e\u4fee\u590d\u7cfb\u7edf\u62a5\u544a_CN_2026-09-06_page1.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "2ea153d8127c51853ed0fe59f06c68689f979cc24077f7c0a4e3df47ceef176d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-1d265c6391fd",
+      "fileName": "build/lib/dikwp_qingyuan/__init__.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ff241736f503a8e27fd729b5b0654ee947664638f661421f50e6bcb4137987ae"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-fb0bd1542463",
+      "fileName": "build/lib/dikwp_qingyuan/__main__.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-9a711d0b2c56",
+      "fileName": "build/lib/dikwp_qingyuan/cli.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24dbe1c816b1e5c4d79cb3ab33a218511d8d387a36a8f69cba8353078e944acc"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-89cd65f1ed06",
+      "fileName": "build/lib/dikwp_qingyuan/context_repair.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bbb34f8ce3a8755639e800ba37a7c52c24058cb0b99248485804e0d6b1d309a6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2b63c3c87230",
+      "fileName": "build/lib/dikwp_qingyuan/engine.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "106af4a15dbd82631ec21210234f57996d884599ce744b452f37946153481e85"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-49557b0d5a65",
+      "fileName": "build/lib/dikwp_qingyuan/intervention.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf140a8e77f9d556ff2e43d9caba9cb5c22267e0ee0dd0b66b9d8a171135942f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-c5c4bcb4a258",
+      "fileName": "build/lib/dikwp_qingyuan/knowledge_audit.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ded006607f0645cd6a425500924eaafa6d0db0fcf049ffa0590a3093e1a4ef7d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-a3769b7dc0c4",
+      "fileName": "build/lib/dikwp_qingyuan/models.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0278a165159a9333d8571c95f8ca226b26c66cfb769825093375605d4fffbe38"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-285a1a15ef8b",
+      "fileName": "build/lib/dikwp_qingyuan/receipts.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c22d336fec5d334b24c7b73c359eb0f7762ad2c115815d18df501a511dd55e7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-98bb48b52ae5",
+      "fileName": "build/lib/dikwp_qingyuan/relationship.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b31f5c6a10badc995589a937af11ca2a3a222ca7a2740137ab9348c9c5347bf0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-1fc269ef8218",
+      "fileName": "build/lib/dikwp_qingyuan/rules.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5182644a521013127181cf123ca570130e25248478390b5ca97bc52d39c54b6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-fb13ac37a7e6",
+      "fileName": "build/lib/dikwp_qingyuan/util.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f88cdf42e8af958f9644e7013280fe56f0224a6525a5fb42622243dadab2301d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-a62bbcc96b30",
+      "fileName": "data/demo_cases.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "253831b465ee4cb68fa46da5f445f4d58e0344fe936b69f5c30257af6b15ca48"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-ea18aea13fb3",
+      "fileName": "data/rules.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7741756cd0316cdbf00bf219f252209bf4e6e3a0bc6173612c3c372996092876"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-807b0f4feea0",
+      "fileName": "docs/FAMILY_CONTEXT_REPAIR_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3e53bc81bcfdb121be2539546b53b708a4fc308423417453b2d4252612949c28"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-73d8523cf492",
+      "fileName": "docs/GOVERNANCE_APPEAL_REPAIR_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7461c85b4f889c858812d2a2b61fa5afd73b8a5cb33924245c8c8b90c3b0d6ae"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-d7189c501654",
+      "fileName": "docs/MATHEMATICS_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c2e07c69a2b611b98436f9285891f614ed92dde2b8820265ab0b879dfc3c2cf"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-c296fcd8e5cf",
+      "fileName": "docs/PERSONAL_USE_GUIDE_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8332196f6708593673beddc0d33e4ec6142ec142ce615223095e4d3702a551e0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-0a5dca1f0cf3",
+      "fileName": "docs/PLATFORM_AND_REALITY_INTERVENTION_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ea6d00e57e4c14f93ae4ff52a65f3a10cf06b8f394896c9c137643920682940"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-cf8f46a774ab",
+      "fileName": "docs/THREAT_TAXONOMY_CN_EN.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d08e3c201b1b051a427f25fbf5c4909a1647d8dc7ab26e80c442fce0f85e6714"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2a81cd45ec36",
+      "fileName": "extension/README.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "00bcc6f0b05d1d63bc7f704c20bb97617840a0f25455b6ee50ad004ba84d3c11"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-6dd18b9ff69f",
+      "fileName": "extension/guard.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7f1cdae6db9fb4e4902b773368565345e0069f3b9469c7bf3f231ed6c70be329"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-701484936c1a",
+      "fileName": "extension/icon128.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b839b6d95726a6a004dbfbf1e58e5a54bc0a5d695959d87bdbb7967702465571"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-81e1e9424890",
+      "fileName": "extension/icon16.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8c42076d5a631633d44ad7ee7104c9a9778c5a4a388629765fcca873a1969253"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-a11cde1696f3",
+      "fileName": "extension/icon48.png",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ed7b6db94689aedb05f25134f03d901e25b5863fa2c703189fe7b8dce391d80f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-8d9004c434b8",
+      "fileName": "extension/manifest.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b05211c78269feec224dff84674974d71eafc0f69ce0e3fc7962bd1328bd2a07"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-d53e304f12b0",
+      "fileName": "extension/popup.html",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4be93d63852f40faf3f636c6abd5db9b2d2c32b3d624c61e8b262149a166e0ab"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-4405f435bbbe",
+      "fileName": "extension/popup.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5976d48a0e4ec5631d37d12848d1ac88a266fec0dde9717060c2b50df08fa9b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2803bb71627d",
+      "fileName": "extension/service_worker.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "88f022288d2e46bce5b3b2d54a9796beb189d7070bc7e588be55667571c5b72a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-a4174e54b8ff",
+      "fileName": "outputs/demo/dashboard.html",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f4c7d2edd0605b8cdcbd6215a7595e60c13e1e247d60f073053d5925f3ef0cef"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-44e6f26ce246",
+      "fileName": "outputs/demo/demo_analysis.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "45fe6442881c255627bbb7ee8ace8764d83f48d6e44e2040633aa57f7c33cc2a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-605b0866d2f7",
+      "fileName": "outputs/demo/ledger_verification.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "139e5ec82725e45ae2d1bcc7481089672b5d115d039813799ab613984a09a397"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2df75581da7b",
+      "fileName": "outputs/demo/receipts.jsonl",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6e62dd1fbb7d2dbb2f9b03d8df4a2f274ce2f6bc577638ab91d31cb83f3d27e7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5d07e7d72637",
+      "fileName": "pyproject.toml",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "81dbbf67d5ca1f55c6922904c29e0c9aa5d1ca939fbf7d777c775c28a2da3835"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-8625dfcda8c4",
+      "fileName": "release/ARCHIVE_VALIDATION.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c3bc7deae3cd0c0bca0442a4578e2f8a459fc4549c971a4e99caf12cd893b08c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-aeb6d1826e76",
+      "fileName": "release/BROWSER_QA.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7bc764f010f75f1d969d06aa22b6321ee30abda826feccffeaf380545cf0760e"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-d8d0b8564a0d",
+      "fileName": "release/BUILD_SUMMARY.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c479b0f06db49a7d875d08c8d3dffbb0bebd06ba35ffffd7a5fcc7a5d7f6ce8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-1504109e759a",
+      "fileName": "release/COMPLETE_DELIVERY_SHA256.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f649da22b709b59ac2ad789adeeee0a6fa990895274b9402cd4a6b1a93755fde"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-9cb36c915acb",
+      "fileName": "release/DIKWP_COGNITIVE_IMMUNE_QINGYUAN_27.0.0_source.zip",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e072113695fb3bc0fa507d62ed61c94b4388770a230b1f2f73013a556fe2d70b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-eb402e3a1c3e",
+      "fileName": "release/FINAL_RELEASE_STATUS.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "13ba9807f07a948e57ee8793619203cf72e56082763d833d65a53a113d864d5a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-c11729eccd50",
+      "fileName": "release/QINGYUAN_27.0.0.pyz",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9a28c0aadcfe7314bb2f34b825bb93f44d450ce6fb17cc2c7e751e1c41a446d7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-df9373a4ff64",
+      "fileName": "release/QINGYUAN_Browser_Selection_Guard_27.0.0.zip",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f57230ab5bd157f885745e7193d7fd06cf61567386788e968e572ef18d58a28c"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-cd828d7cbe16",
+      "fileName": "release/QINGYUAN_Personal_Cognitive_Immunity_Client_27.0.0.html",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "57f91828803016def760040a726c05d968f790e4de362175862c493976048a30"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-81240520a2b0",
+      "fileName": "release/SBOM.spdx.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d4ce9d6ecfa7f72e14fdb45dbf5fabd763f9a037791aed08af5d32a48b0ba721"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-8c9af0efeb37",
+      "fileName": "release/SCHEMA_VALIDATION.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "01272fab4cf240175d9ae4b3877b945fbd4ac14ecaa17b8bf4ca557dedee9bb1"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-30e07dc36d5c",
+      "fileName": "release/SHA256SUMS.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "37dc921a3d6e1462ae98d22756820f798f676cf1b42d5298bf6907465009821b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-057811f2fa5a",
+      "fileName": "release/SOURCE_ARCHIVE_RETEST.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b75d68bbb90292aaf3218c3f03892d0b10166077344d9edb991ced94bd57ae1d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-b43748a7ba95",
+      "fileName": "release/STATIC_SCAN.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "def0d99ab0d710437c26e34b28edbbac142534718099d47359cd79d644e02a4f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-f290ac03ec7e",
+      "fileName": "release/TEST_REPORT.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ae4e3a0abbd6b5f859886da021d784c93d58afa03fa66d9ca1b0f35fba97373a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-f12b7d270d9e",
+      "fileName": "release/VALIDATION_RECEIPT.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7264ca76b873e521a4216d3929f6c5adc47b589ab13a70c75c9aba2e758e3e21"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5de7c5fd5acb",
+      "fileName": "release/WORD_RENDER_QA.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "50b7d886ce2522996cf3a95f795815a858fbb758cd9559735aa402d4f745a9de"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-2a1c09cb9317",
+      "fileName": "release/dikwp_qingyuan-27.0.0-py3-none-any.whl",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "98d20f6458655a90272644ee19d1d4882d861b80bb5c8be42e1da8efb7783f87"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-1ef17ac3d0be",
+      "fileName": "release/qingyuan27-demo.cipkg.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "88102208832064a314afcbcf52086f3bdd5e37e8dd21a965ec7c11fa0f943c91"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-8c058673eb1f",
+      "fileName": "reports/Yucong_Duan_DIKWP_QINGYUAN_27.0_Active_Cognitive_Immunity_and_Reality_Repair_System_Report_EN_2026-09-06.docx",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3c90efd03c64f373a8c989a9ffafe973f2a5a3c22822c0ae4b16b82ac639ed9b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-d7988b1817cb",
+      "fileName": "reports/rendered/Yucong_Duan_DIKWP_QINGYUAN_27.0_Active_Cognitive_Immunity_and_Reality_Repair_System_Report_EN_2026-09-06.pdf",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "5cf20ab2e59b703547e4e593da1522f819e709803748c245de19bf8fe86fe4bf"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-cd29f4763ec1",
+      "fileName": "reports/rendered/\u6bb5\u7389\u806a_DIKWP\u6e05\u6e9027.0_\u4e3b\u52a8\u8ba4\u77e5\u514d\u75ab\u4e0e\u73b0\u5b9e\u4fee\u590d\u7cfb\u7edf\u62a5\u544a_CN_2026-09-06.pdf",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9198c5dfc1bdf13af66f5280b03d873e1dc39caaff57220a972955aa5a5622e4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-b87287d225ac",
+      "fileName": "reports/\u6bb5\u7389\u806a_DIKWP\u6e05\u6e9027.0_\u4e3b\u52a8\u8ba4\u77e5\u514d\u75ab\u4e0e\u73b0\u5b9e\u4fee\u590d\u7cfb\u7edf\u62a5\u544a_CN_2026-09-06.docx",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "28bdf995ee38c3d2555f65c3eacf79a34dfac13faf8b6b76be1f30a8bdc6f059"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-dd4a84d15eac",
+      "fileName": "schemas/analysis.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "51b85ba210aac8f5e96fdc9a3ff700ddd1da4aabfeab289aa6da0b1da0680078"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5f9e2c40d6fb",
+      "fileName": "schemas/cognitive-immunity-package.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "c5e865e75e5636d1068a8a9bce58304d6f2f2f6a4f00c00767ec1ea3f8f44a1a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-6dc66bde3825",
+      "fileName": "schemas/receipt.schema.json",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "028e8618f7b67f27b7ed1e7baf81d00733b9117d21d6dc672e0f03bd4d398d03"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-7f0a6652521c",
+      "fileName": "scripts/build_standalone.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a3e3aeea689a0a417e413c51d11b3a88f918345b3fe09d22791fd0a894fba58f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5b5feb6459e2",
+      "fileName": "spec/QINGYUAN-COGNITIVE-IMMUNITY-PROTOCOL-27.0.0-DRAFT.md",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d07e647acc5551288e78e9ec6dcd66ae6abfc3846b689cba01a4eec82980f72a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-12bea476dcf2",
+      "fileName": "src/dikwp_qingyuan/__init__.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ff241736f503a8e27fd729b5b0654ee947664638f661421f50e6bcb4137987ae"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5df47818cc0d",
+      "fileName": "src/dikwp_qingyuan/__main__.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-cb5d05b2c7df",
+      "fileName": "src/dikwp_qingyuan/__pycache__/__init__.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "42b58a777646846bd6be1238a1940c8fb5b446f838fbea8a2e5481351b2cbfb6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-bb52f7467791",
+      "fileName": "src/dikwp_qingyuan/__pycache__/__main__.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4bf10cd90a10bb23d8d5361646bd95d44a7e8e713c7ae760fe520ba30e9f24fd"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-1c1666ab7f73",
+      "fileName": "src/dikwp_qingyuan/__pycache__/cli.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "666eb69492cc12cbc77f9f4222e5298af7aec7aec0726e9decfeed01ce43f76a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-caf7e3b040d1",
+      "fileName": "src/dikwp_qingyuan/__pycache__/context_repair.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "19a01797e1326f6984e2dbd986f1e35ce4106905c4da16a27bbd443dc0d0d769"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-a7ca99130e29",
+      "fileName": "src/dikwp_qingyuan/__pycache__/engine.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9bc13a2c510cc4af93bf3241bafd3e2e54a26dee8e29ff2eea2e9622230f0f28"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-f2ee7e5b37a7",
+      "fileName": "src/dikwp_qingyuan/__pycache__/intervention.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ee57541892121d23be7ae490972972f804a4cc57d57857769646bebb46ef9bec"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-082ef1ac5728",
+      "fileName": "src/dikwp_qingyuan/__pycache__/knowledge_audit.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "da0314f58403a3872eeac102288e2ece24f9615bc0a7908076fdb17fbd8395e5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-8c139f4e2bee",
+      "fileName": "src/dikwp_qingyuan/__pycache__/models.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6aa826ea07cb9f07aca9a981dbcb50876a143730d70619f41e05be1499d05f48"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-ddf166d3bf50",
+      "fileName": "src/dikwp_qingyuan/__pycache__/receipts.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "89444f1c0253c725568c7b98c3343ffc411eac5a1638a0b517b12f0e6081f661"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-72b3972679d0",
+      "fileName": "src/dikwp_qingyuan/__pycache__/relationship.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e9904816d3629fd32a5871a85f674d8714518b22e05553f429ca1dacfc10f2c3"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-d344dcc9e31a",
+      "fileName": "src/dikwp_qingyuan/__pycache__/rules.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "36f3af5851729ea0cf67a1c80dcc2eb3eefe1e643dea32d5ffa736299ddf4154"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-7dd9fc71a988",
+      "fileName": "src/dikwp_qingyuan/__pycache__/util.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cda754981b655fdb94fcf8c94e6d672cb159b149f8935fa71d28621e159ab67a"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-5aceaa564a75",
+      "fileName": "src/dikwp_qingyuan/cli.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "24dbe1c816b1e5c4d79cb3ab33a218511d8d387a36a8f69cba8353078e944acc"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-81c3e55a34ef",
+      "fileName": "src/dikwp_qingyuan/context_repair.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bbb34f8ce3a8755639e800ba37a7c52c24058cb0b99248485804e0d6b1d309a6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-70b5fade53b5",
+      "fileName": "src/dikwp_qingyuan/engine.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "106af4a15dbd82631ec21210234f57996d884599ce744b452f37946153481e85"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-d0849fc93595",
+      "fileName": "src/dikwp_qingyuan/intervention.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "bf140a8e77f9d556ff2e43d9caba9cb5c22267e0ee0dd0b66b9d8a171135942f"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-592fb8b69721",
+      "fileName": "src/dikwp_qingyuan/knowledge_audit.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "ded006607f0645cd6a425500924eaafa6d0db0fcf049ffa0590a3093e1a4ef7d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-c89c81ee5589",
+      "fileName": "src/dikwp_qingyuan/models.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0278a165159a9333d8571c95f8ca226b26c66cfb769825093375605d4fffbe38"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-bd7c2b0bfe7d",
+      "fileName": "src/dikwp_qingyuan/receipts.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c22d336fec5d334b24c7b73c359eb0f7762ad2c115815d18df501a511dd55e7"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-af0344a7d3f2",
+      "fileName": "src/dikwp_qingyuan/relationship.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b31f5c6a10badc995589a937af11ca2a3a222ca7a2740137ab9348c9c5347bf0"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-81e74adfe484",
+      "fileName": "src/dikwp_qingyuan/rules.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f5182644a521013127181cf123ca570130e25248478390b5ca97bc52d39c54b6"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-26e610bee985",
+      "fileName": "src/dikwp_qingyuan/util.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f88cdf42e8af958f9644e7013280fe56f0224a6525a5fb42622243dadab2301d"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-6538eda915be",
+      "fileName": "src/dikwp_qingyuan.egg-info/PKG-INFO",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "06b5ecad5a52bf5fedc90401bc150316a0518916b090c7c9b618f6d76824fc15"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-ad9858b888e9",
+      "fileName": "src/dikwp_qingyuan.egg-info/SOURCES.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "89c8f0797ae5c00ce5906d655f4ae578b8afdffea1b8e4bc9a80235569989aed"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-e80948a6e289",
+      "fileName": "src/dikwp_qingyuan.egg-info/dependency_links.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-ba0ecb4c1977",
+      "fileName": "src/dikwp_qingyuan.egg-info/entry_points.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7a6704b2092486ef672404ec2ad43a2da4b1a61f8820833353b38e0b7fffee83"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-e8946d299923",
+      "fileName": "src/dikwp_qingyuan.egg-info/top_level.txt",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f22954921e29d21c5f7e90081b2275911e0e5a7512ae976d225ca46bfcfed7c9"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-7d7aeb809402",
+      "fileName": "tests/__pycache__/test_engine.cpython-313.pyc",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "08ba3deaccb582c607693bfa9b6a70c20c910ce03f219903c6a77e1cac12bcb8"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-64d6aecf7e4f",
+      "fileName": "tests/test_engine.py",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "27f9a64f6f5285faa63bec10be2eeec3c7fb3cee28a713d9be3c7f4ee1694795"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-File-27f199c9c5df",
+      "fileName": "tests/test_js.js",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4ae9a62f9406ad29d237ab6d628088a64347f1baa641fc110dcdfc7fd2dada33"
+        }
+      ]
+    }
+  ]
+}

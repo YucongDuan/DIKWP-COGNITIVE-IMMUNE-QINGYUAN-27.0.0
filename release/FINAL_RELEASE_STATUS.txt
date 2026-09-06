@@ -1,0 +1,36 @@
+{
+  "all_validation_checks_passed": false,
+  "tests": {
+    "python": {
+      "count": 35,
+      "passed": true
+    },
+    "javascript": {
+      "count": 0,
+      "passed": false
+    },
+    "source_archive_retest": {
+      "count": 35,
+      "passed": true
+    }
+  },
+  "missing": [],
+  "artifacts": {
+    "standalone_client": true,
+    "browser_extension_zip": true,
+    "pyz": true,
+    "wheel": false,
+    "source_zip": true,
+    "reports": 2
+  },
+  "checks": {
+    "demo": true,
+    "ledger": true,
+    "schema": true,
+    "static_scan": true,
+    "browser": true,
+    "word": true,
+    "pyz": true,
+    "wheel": false
+  }
+}

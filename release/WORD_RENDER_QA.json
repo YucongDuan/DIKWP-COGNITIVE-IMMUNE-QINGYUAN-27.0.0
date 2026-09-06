@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "file": "Yucong_Duan_DIKWP_QINGYUAN_27.0_Active_Cognitive_Immunity_and_Reality_Repair_System_Report_EN_2026-09-06.docx",
+      "size": 48029,
+      "paragraphs": 110,
+      "tables": 13,
+      "text_characters": 21254,
+      "render_rc": 0,
+      "pages": 17,
+      "blank_pages": []
+    },
+    {
+      "file": "段玉聪_DIKWP清源27.0_主动认知免疫与现实修复系统报告_CN_2026-09-06.docx",
+      "size": 49212,
+      "paragraphs": 110,
+      "tables": 13,
+      "text_characters": 6867,
+      "render_rc": 0,
+      "pages": 17,
+      "blank_pages": []
+    }
+  ]
+}

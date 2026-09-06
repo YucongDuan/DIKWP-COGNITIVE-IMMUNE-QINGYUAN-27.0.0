@@ -1,0 +1,10 @@
+{
+  "archive": "DIKWP_COGNITIVE_IMMUNE_QINGYUAN_27.0.0_source.zip",
+  "integrity": {
+    "entries": 73,
+    "bad": null
+  },
+  "test_rc": 0,
+  "test_count": 35,
+  "output": "...................................\n----------------------------------------------------------------------\nRan 35 tests in 0.004s\n\nOK\n"
+}

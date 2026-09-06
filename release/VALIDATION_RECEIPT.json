@@ -1,0 +1,47 @@
+{
+  "system": "DIKWP ACTIVE COGNITIVE IMMUNE / QINGYUAN",
+  "version": "27.0.0",
+  "generated_at": "2026-09-06T01:11:14.323624+00:00",
+  "maturity": "Alpha research prototype",
+  "tests": {
+    "python": {
+      "count": 35,
+      "passed": true
+    },
+    "javascript": {
+      "count": 0,
+      "passed": false
+    },
+    "source_archive_retest": {
+      "count": 35,
+      "passed": true
+    }
+  },
+  "artifacts": {
+    "standalone_client": true,
+    "browser_extension_zip": true,
+    "pyz": true,
+    "wheel": true,
+    "source_zip": true,
+    "reports": 2
+  },
+  "checks": {
+    "demo": true,
+    "ledger": true,
+    "schema": true,
+    "static_scan": true,
+    "browser": true,
+    "word": true,
+    "pyz": true,
+    "wheel": true
+  },
+  "hard_invariants": {
+    "human_worth_ranking_authority": 0,
+    "political_viewpoint_penalty_authority": 0,
+    "negative_emotion_suppression_authority": 0,
+    "person_level_good_bad_label": 0,
+    "external_automatic_deletion_or_sanction_authority": 0,
+    "external_automatic_value_transfer_authority": 0
+  },
+  "claim_boundary": "Automated checks validate software paths and synthetic cases; they do not establish real-world detection accuracy, legal liability or causal social benefit."
+}

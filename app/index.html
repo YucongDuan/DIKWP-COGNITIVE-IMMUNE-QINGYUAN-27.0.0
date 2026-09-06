@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QINGYUAN 27.0 — 主动认知免疫与现实修复</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="logo">清</div><div><strong>QINGYUAN 27.0</strong><span>Active Cognitive Immune</span></div></div>
+    <nav id="nav">
+      <button data-view="overview" class="active">总览 / Overview</button>
+      <button data-view="clinic">内容体检 / Content Clinic</button>
+      <button data-view="context">语境补全 / Context Restore</button>
+      <button data-view="relation">关系影响 / Relationship</button>
+      <button data-view="knowledge">知识售卖审计 / Offer Audit</button>
+      <button data-view="addiction">成瘾回路 / Addiction Guard</button>
+      <button data-view="evidence">证据矩阵 / Evidence</button>
+      <button data-view="share">分享闸门 / Share Gate</button>
+      <button data-view="intervention">主动干预 / Intervention</button>
+      <button data-view="repair">现实修复 / Reality Repair</button>
+      <button data-view="protected">受保护表达 / Protected Speech</button>
+      <button data-view="receipts">回执 / Receipts</button>
+      <button data-view="governance">规则与治理 / Governance</button>
+      <button data-view="export">导出 / Export</button>
+    </nav>
+    <div class="side-note">Local-first · No account · No model API · No silent upload</div>
+  </aside>
+  <main>
+    <header class="topbar">
+      <div><h1 id="pageTitle">总览 / Overview</h1><p id="pageSubtitle">不清除负面情绪，主动削弱利用情绪获利的机制。</p></div>
+      <div class="status"><span class="dot"></span><span>离线本地运行</span></div>
+    </header>
+
+    <section id="overview" class="view active">
+      <div class="hero">
+        <div><div class="eyebrow">DIKWP · MESH96 · REALITY CLOSURE</div><h2>把“负能量”从模糊标签变成可审计的机制诊断</h2><p>系统保护批评、举报、悲伤、坏消息和求助；主动处理虚假、语境截断、操纵、成瘾、脆弱群体定向诱导、伪知识售卖与可验证关系伤害。</p></div>
+        <div class="hero-badge"><strong>0</strong><span>自动外部删帖、处罚与扣款权限</span></div>
+      </div>
+      <div class="metrics">
+        <article><b id="metricCases">0</b><span>已分析内容</span></article>
+        <article><b id="metricProtected">0</b><span>受保护表达</span></article>
+        <article><b id="metricFriction">0</b><span>主动摩擦建议</span></article>
+        <article><b id="metricReceipts">0</b><span>本地回执</span></article>
+      </div>
+      <div class="grid two">
+        <article class="card"><h3>系统主动消除什么</h3><ul><li>虚假确定性与伪造证据</li><li>截断主体、条件和负担的片面语境</li><li>羞耻、恐惧、身份战争和紧迫感操纵</li><li>无限滚动、自动播放、打卡和随机奖励回路</li><li>以知识名义包装的隐蔽售卖漏斗</li><li>已经产生的可验证现实伤害及其继续放大</li></ul></article>
+        <article class="card"><h3>系统明确保护什么</h3><ul><li>真实但令人不舒服的事实</li><li>科学反例与对权威的批评</li><li>举报、事故通报和受害者陈述</li><li>悲伤、焦虑、痛苦与求助</li><li>讽刺、文学和虚构（需保留语境）</li><li>对系统本身的纠错与申诉</li></ul></article>
+      </div>
+      <article class="card callout"><h3>关键区分</h3><p><b>内容的情绪色彩 ≠ 社会价值。</b> 一条污染事故通报可能“负面”却具有公共价值；一条快乐、励志、充满“正能量”的谎言可能造成真实伤害。</p></article>
+    </section>
+
+    <section id="clinic" class="view">
+      <div class="grid two">
+        <article class="card form-card"><h2>内容体检</h2>
+          <label>内容目的 / Purpose<select id="purpose"><option value="unspecified">未指定</option><option value="education">教育</option><option value="sales">售卖</option><option value="news">新闻</option><option value="criticism">批评</option><option value="whistleblowing">举报</option><option value="distress">求助或痛苦表达</option><option value="entertainment">娱乐</option></select></label>
+          <label>目标受众 / Audience<input id="audience" value="general"></label>
+          <label>粘贴文本<textarea id="contentText" rows="11" placeholder="输入帖子、视频文案、聊天内容或课程销售页……"></textarea></label>
+          <fieldset><legend>界面放大机制</legend><div class="checks" id="cueChecks">
+            <label><input type="checkbox" value="infinite_scroll">无限滚动</label><label><input type="checkbox" value="autoplay">自动播放</label><label><input type="checkbox" value="variable_reward">随机奖励</label><label><input type="checkbox" value="streak">连续打卡</label><label><input type="checkbox" value="rapid_push">高频推送</label><label><input type="checkbox" value="outrage_loop">愤怒循环</label>
+          </div></fieldset>
+          <div class="actions"><button class="primary" id="loadExample">载入家庭案例</button><button class="primary" id="analyzeBtn">开始体检</button><button id="clearBtn">清空</button></div>
+        </article>
+        <article class="card"><h2>诊断结果</h2><div id="primaryDecision" class="decision muted">尚未分析</div><div id="protectedFlag"></div><div id="scoreGrid" class="score-grid"></div><h3>多世界解释</h3><div id="worlds"></div><h3>主动动作</h3><div id="interventions" class="chips"></div></article>
+      </div>
+    </section>
+
+    <section id="context" class="view">
+      <div class="grid two"><article class="card"><h2>语境补全</h2><p>把一句口号拆成：合理核心、遗漏主体、条件、例外、负担、商业动机与可执行复盘。</p><button class="primary" id="contextBtn">基于当前文本补全</button><div id="contextMissing"></div></article><article class="card"><h2>修复后的表达</h2><blockquote id="contextRepair">等待生成。</blockquote><div id="contextRisk"></div></article></div>
+    </section>
+
+    <section id="relation" class="view">
+      <div class="grid two"><article class="card form-card"><h2>关系外部性模拟</h2>
+        <label>单边负担转移 <input id="relBurden" type="range" min="0" max="100" value="70"><output>70</output></label>
+        <label>贬低或妖魔化 <input id="relContempt" type="range" min="0" max="100" value="55"><output>55</output></label>
+        <label>孩子或依赖者风险 <input id="relDependent" type="range" min="0" max="100" value="45"><output>45</output></label>
+        <label>协商质量 <input id="relNegotiation" type="range" min="0" max="100" value="25"><output>25</output></label>
+        <label>现实资源支持 <input id="relSupport" type="range" min="0" max="100" value="30"><output>30</output></label>
+        <label class="inline"><input id="relViolence" type="checkbox">存在暴力或强迫控制（启用安全优先例外）</label><button class="primary" id="relationBtn">运行模拟</button>
+      </article><article class="card"><h2>关系结果</h2><div id="relationDecision" class="decision muted">尚未运行</div><div class="meter"><span id="relationMeter"></span></div><p id="relationText"></p><div class="callout"><b>原则：</b>普通冲突可用可逆试行和复盘；暴力与控制情境不能被“双方各退一步”掩盖。</div></article></div>
+    </section>
+
+    <section id="knowledge" class="view">
+      <div class="grid two"><article class="card form-card"><h2>知识售卖审计</h2><label>销售文案<textarea id="offerText" rows="8"></textarea></label><label>价格<input id="offerPrice" type="number" value="1999"></label><label>退款条款<input id="offerRefund" placeholder="例如：7天可退"></label><label>资质与责任主体<input id="offerCredentials"></label><label>独立证据链接数<input id="offerLinks" type="number" min="0" value="0"></label><button class="primary" id="offerBtn">审计</button></article><article class="card"><h2>商业与知识边界</h2><div id="offerDecision" class="decision muted">尚未审计</div><div id="offerDetails"></div><ol><li>样例和课程大纲是否可先看？</li><li>结果是否有独立验证，而非只有精选见证？</li><li>卖方、佣金、赞助、升级销售和数据用途是否披露？</li><li>失败、适用边界和不适合人群是否写明？</li><li>退款与纠错是否真实可执行？</li></ol></article></div>
+    </section>
+
+    <section id="addiction" class="view">
+      <div class="grid two"><article class="card form-card"><h2>成瘾回路体检</h2><label>每天使用分钟<input id="dailyMinutes" type="number" value="180"></label><label>夜间被打断次数<input id="nightInterruptions" type="number" value="3"></label><label>计划外打开次数<input id="unplannedOpens" type="number" value="12"></label><label>使用后焦虑/愤怒（0–100）<input id="postDistress" type="range" min="0" max="100" value="65"><output>65</output></label><button class="primary" id="addictionBtn">生成断路计划</button></article><article class="card"><h2>主动断路计划</h2><div id="addictionRisk" class="decision muted">尚未计算</div><div id="addictionPlan"></div></article></div>
+    </section>
+
+    <section id="evidence" class="view">
+      <article class="card"><h2>主张—证据矩阵</h2><p>把当前文本中的主张拆为“观察、来源陈述、推断、假设、价值判断、行动建议和结果”。</p><button class="primary" id="evidenceBtn">生成矩阵</button><div class="table-wrap"><table><thead><tr><th>主张片段</th><th>类型</th><th>当前证据</th><th>不能证明什么</th><th>下一验证</th></tr></thead><tbody id="evidenceBody"></tbody></table></div></article>
+    </section>
+
+    <section id="share" class="view">
+      <div class="grid two"><article class="card"><h2>分享前五问</h2><ol><li>它是事实、推断、情绪、建议还是广告？</li><li>来源能支持到哪一层？</li><li>省略了谁、什么条件和什么代价？</li><li>谁因我转发而获利，谁承担风险？</li><li>若错了，纠正能否到达同一受众？</li></ol><button class="primary" id="shareBtn">生成分享决定</button></article><article class="card"><h2>决定</h2><div id="shareDecision" class="decision muted">等待分析。</div><p id="shareReason"></p></article></div>
+    </section>
+
+    <section id="intervention" class="view"><article class="card"><h2>主动干预阶梯</h2><div class="ladder" id="ladder"></div><h3>当前案例计划</h3><div id="planOutput"></div></article></section>
+
+    <section id="repair" class="view">
+      <div class="grid two"><article class="card form-card"><h2>现实结果登记</h2><label>实际发生了什么<textarea id="outcomeText" rows="6" placeholder="例如：购买后退款困难、家庭冲突加剧、治疗延误、内容更正……"></textarea></label><label>结果严重度（0–100）<input id="outcomeSeverity" type="range" min="0" max="100" value="40"><output>40</output></label><label>是否已有独立证据<select id="outcomeEvidence"><option value="none">无</option><option value="self">本人记录</option><option value="stakeholder">相关方确认</option><option value="independent">独立核验</option></select></label><button class="primary" id="outcomeBtn">生成修复回执</button></article><article class="card"><h2>修复优先序</h2><ol><li>停止继续放大或继续售卖</li><li>通知受影响者并提供可理解更正</li><li>恢复退出、退款、删除和申诉能力</li><li>修复直接损害与错误负担转移</li><li>修改触发机制、商业激励和推荐结构</li><li>记录现实结果并修订模型</li></ol><div id="outcomeReceipt"></div></article></div>
+    </section>
+
+    <section id="protected" class="view"><div class="grid two"><article class="card"><h2>绝不能被“负能量”标签吞掉的表达</h2><ul><li>关于污染、事故、疾病和失业的真实坏消息</li><li>受害者、照护者和压力人群的痛苦陈述</li><li>对政府、企业、平台、家庭权力和本系统的批评</li><li>科学反例、失败实验和不受欢迎的数据</li><li>悲伤、焦虑、愤怒以及明确求助</li></ul></article><article class="card"><h2>保护不等于免责</h2><p>批评可以尖锐，但不能伪造证据、威胁、骚扰、泄露私人身份或发动现实伤害。系统应处理具体行为机制，而不是因观点令人不适就压制。</p><div class="callout">当“正能量治理”要求人们只能表达快乐时，它本身可能成为压制事实、阻止求助和保护强势方的操纵机制。</div></article></div></section>
+
+    <section id="receipts" class="view"><article class="card"><h2>本地回执链</h2><p>回执记录分析、补语境、分享决定和现实结果。它证明记录的连续性，不证明结论天然正确。</p><div class="actions"><button class="primary" id="verifyReceipts">验证回执链</button><button id="clearReceipts">清除回执</button></div><div id="receiptStatus"></div><pre id="receiptList"></pre></article></section>
+
+    <section id="governance" class="view"><div class="grid two"><article class="card"><h2>硬不变量</h2><pre>HUMAN_WORTH_RANKING_AUTHORITY = 0
+POLITICAL_VIEWPOINT_PENALTY_AUTHORITY = 0
+NEGATIVE_EMOTION_SUPPRESSION_AUTHORITY = 0
+PERSON_LEVEL_GOOD_BAD_LABEL = 0
+EXTERNAL_AUTOMATIC_DELETION_OR_SANCTION = 0
+EXTERNAL_AUTOMATIC_VALUE_TRANSFER = 0
+APPEAL_AND_CORRECTION_REQUIRED = 1
+REALITY_OUTCOME_RECEIPT_REQUIRED = 1</pre></article><article class="card"><h2>机构部署最低条件</h2><ol><li>来源和主张层级分离</li><li>至少两个非同构解释</li><li>先可逆干预，后更强措施</li><li>通知、答辩、申诉、到期和撤销</li><li>平台不得从“处罚”中直接获利</li><li>错误纠正应尽量到达相同受众</li><li>现实伤害、漏报和误报必须反向修订系统</li></ol></article></div></section>
+
+    <section id="export" class="view"><article class="card"><h2>导出与本地数据</h2><p>数据保存在当前浏览器。浏览器本地存储不是机密保险箱，请勿输入密码、验证码、私钥、完整身份证件、儿童身份或未脱敏医疗资料。</p><div class="actions"><button class="primary" id="exportBtn">导出完整JSON</button><button id="importBtn">导入JSON</button><input id="importFile" type="file" accept="application/json" hidden><button class="danger" id="resetBtn">清除全部本地数据</button></div><textarea id="exportPreview" rows="16" readonly></textarea></article></section>
+
+    <footer>DIKWP QINGYUAN 27.0 · Alpha research prototype · Content mechanisms, not human worth.</footer>
+  </main>
+</div>
+<script src="rules.js"></script><script src="app.js"></script>
+</body></html>

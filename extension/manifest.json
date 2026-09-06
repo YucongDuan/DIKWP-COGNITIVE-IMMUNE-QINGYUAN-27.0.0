@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "QINGYUAN 27.0 Selection Guard",
+  "version": "27.0.0",
+  "description": "User-triggered context, manipulation and attention-safety checks for selected text. No remote service.",
+  "permissions": ["activeTab", "scripting", "storage", "contextMenus"],
+  "background": {"service_worker": "service_worker.js"},
+  "action": {"default_popup": "popup.html", "default_title": "QINGYUAN Guard"},
+  "icons": {"16":"icon16.png","48":"icon48.png","128":"icon128.png"}
+}

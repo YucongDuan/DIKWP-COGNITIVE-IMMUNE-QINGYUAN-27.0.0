@@ -1,0 +1,45 @@
+{
+  "version": "27.0.0",
+  "mode": "QINGYUAN27_EVIDENCE_CONTEXT_MANIPULATION_ADDICTION_VULNERABILITY_RELATIONAL_REPAIR_REALITY_CLOSURE",
+  "dimensions": [
+    "evidence_integrity",
+    "context_completeness",
+    "manipulation_pressure",
+    "addiction_pressure",
+    "interest_opacity",
+    "vulnerability_exploitation",
+    "relational_externality",
+    "pseudo_knowledge_risk",
+    "corrigibility",
+    "observed_harm"
+  ],
+  "protected_expression": [
+    "criticism",
+    "whistleblowing",
+    "grief",
+    "distress",
+    "bad news",
+    "scientific dissent",
+    "victim testimony"
+  ],
+  "hard_invariants": {
+    "HUMAN_WORTH_RANKING_AUTHORITY": 0,
+    "POLITICAL_VIEWPOINT_PENALTY_AUTHORITY": 0,
+    "NEGATIVE_EMOTION_SUPPRESSION_AUTHORITY": 0,
+    "EXTERNAL_AUTOMATIC_DELETION_OR_SANCTION_AUTHORITY": 0,
+    "EXTERNAL_AUTOMATIC_VALUE_TRANSFER_AUTHORITY": 0,
+    "PERSON_LEVEL_GOOD_BAD_LABEL": 0,
+    "APPEAL_AND_CORRECTION_REQUIRED": 1,
+    "REALITY_OUTCOME_RECEIPT_REQUIRED": 1,
+    "LOCAL_USER_CONTROL_PRECEDENCE": 1
+  },
+  "intervention_ladder": [
+    "L0_PROTECT_AND_PRESERVE",
+    "L1_EVIDENCE_LABEL",
+    "L2_CONTEXT_COMPLETION",
+    "L3_SHARE_FRICTION",
+    "L4_USER_CONTROLLED_DEAMPLIFICATION",
+    "L5_LOCAL_QUARANTINE_OR_COMMERCIAL_HOLD",
+    "L6_DUE_PROCESS_REPAIR"
+  ]
+}

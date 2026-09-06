@@ -1,3 +1,19 @@
+Metadata-Version: 2.4
+Name: dikwp-qingyuan
+Version: 27.0.0
+Summary: DIKWP Active Cognitive Immune and Reality Repair research system
+Author: Yucong Duan
+License: Apache-2.0
+Keywords: DIKWP,cognitive immunity,misinformation,context repair,attention safety
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+Dynamic: license-file
+
 # DIKWP Active Cognitive Immune & Reality Repair / QINGYUAN 27.0.0
 
 > Do not suppress negative emotion; suppress mechanisms that exploit emotion. Do not hide bad news; restore evidence and context. Do not label people as bad; constrain observable harmful conduct and amplification mechanisms.
@@ -19,15 +35,3 @@ qingyuan27 analyze "Scientifically proven secret method—last chance to transfo
 Or open `release/QINGYUAN_Personal_Cognitive_Immunity_Client_27.0.0.html` in a modern browser.
 
 QINGYUAN is an Alpha research prototype, not a fact oracle, diagnosis, legal decision, automatic takedown, sanction or payment system.
-## Portfolio connections
-
-This release is one node in Yucong Duan's open DIKWP research ecosystem. Explore the [DIKW/DIKWP Public Port](https://yucong-duan-research.dikwp407.chatgpt.site/dikwp-port), the [Artificial Consciousness Public Port](https://yucong-duan-research.dikwp407.chatgpt.site/consciousness-port), and the related repositories:
-
-- [QINGYUAN OS 1.0](https://github.com/YucongDuan/DIKWP-QINGYUAN-OS-v1.0.0) and [QINGYUAN OS 2.0 NEXUS](https://github.com/YucongDuan/DIKWP-QINGYUAN-OS-v2.0.0) — the evidence-return and causal information-ecology lineage.
-- [Semantic Immunity & Repair](https://github.com/YucongDuan/DIKWP-SEMANTIC-IMMUNITY-REPAIR-v1.0.0) and [VerityWeave 2.0](https://github.com/YucongDuan/DIKWP-VERITYWEAVE-v2.0.0) — context repair and semantic resilience.
-- [ESSENCE OMEGA](https://github.com/YucongDuan/DIKWP-ESSENCE-OMEGA-OS-v1.0.0) and [BENYUAN 26](https://github.com/YucongDuan/DIKWP-ULTIMATE-ESSENCE-BENYUAN-26.0.0) — bounded essence inference and reality closure.
-- [DuanLife Open Autonomy 15](https://github.com/YucongDuan/DIKWP-DUANLIFE-OPEN-AUTONOMY-15-v3.0.0) — plural-mind, capability-bounded autonomy.
-
-## Dedication and attribution boundary
-
-This open research project is dedicated with love to **Duan Dikweipu (段迪克维普)**, daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.

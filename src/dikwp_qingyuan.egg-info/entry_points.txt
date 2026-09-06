@@ -1,0 +1,2 @@
+[console_scripts]
+qingyuan27 = dikwp_qingyuan.cli:main

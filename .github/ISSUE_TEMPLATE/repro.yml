@@ -1,0 +1,21 @@
+name: Reproducible content-analysis failure
+description: Report a false positive, false negative or context-repair failure.
+title: "[Repro] "
+labels: ["reproducible", "needs-review"]
+body:
+  - type: textarea
+    id: input
+    attributes: {label: Redacted input, description: Do not include private identities or secrets.}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Expected behaviour}
+    validations: {required: true}
+  - type: textarea
+    id: actual
+    attributes: {label: Actual behaviour}
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes: {label: Version, value: "27.0.0"}
+    validations: {required: true}

@@ -1,0 +1,159 @@
+{
+  "root": "/mnt/data/DIKWP_COGNITIVE_IMMUNE_QINGYUAN_27.0.0",
+  "complete_archive": "/mnt/data/DIKWP_COGNITIVE_IMMUNE_QINGYUAN_27.0.0/release/DIKWP_COGNITIVE_IMMUNE_QINGYUAN_27.0.0_Complete_Delivery.zip",
+  "complete_sha256": "e963bbc0126a6e3041b1c7ae985be489be123bd12696f9a0bdd1b92829209319",
+  "complete_entries": 95,
+  "python_tests": 35,
+  "js_tests": 0,
+  "validation": {
+    "system": "DIKWP ACTIVE COGNITIVE IMMUNE / QINGYUAN",
+    "version": "27.0.0",
+    "generated_at": "2026-09-06T01:10:53.450840+00:00",
+    "maturity": "Alpha research prototype",
+    "tests": {
+      "python": {
+        "count": 35,
+        "passed": true
+      },
+      "javascript": {
+        "count": 0,
+        "passed": false
+      },
+      "source_archive_retest": {
+        "count": 35,
+        "passed": true
+      }
+    },
+    "artifacts": {
+      "standalone_client": true,
+      "browser_extension_zip": true,
+      "pyz": true,
+      "wheel": false,
+      "source_zip": true,
+      "reports": 2
+    },
+    "checks": {
+      "demo": true,
+      "ledger": true,
+      "schema": true,
+      "static_scan": true,
+      "browser": true,
+      "word": true,
+      "pyz": true,
+      "wheel": false
+    },
+    "hard_invariants": {
+      "human_worth_ranking_authority": 0,
+      "political_viewpoint_penalty_authority": 0,
+      "negative_emotion_suppression_authority": 0,
+      "person_level_good_bad_label": 0,
+      "external_automatic_deletion_or_sanction_authority": 0,
+      "external_automatic_value_transfer_authority": 0
+    },
+    "claim_boundary": "Automated checks validate software paths and synthetic cases; they do not establish real-world detection accuracy, legal liability or causal social benefit."
+  },
+  "word_reports": [
+    {
+      "file": "Yucong_Duan_DIKWP_QINGYUAN_27.0_Active_Cognitive_Immunity_and_Reality_Repair_System_Report_EN_2026-09-06.docx",
+      "size": 48029,
+      "paragraphs": 110,
+      "tables": 13,
+      "text_characters": 21254,
+      "render_rc": 0,
+      "pages": 17,
+      "blank_pages": []
+    },
+    {
+      "file": "段玉聪_DIKWP清源27.0_主动认知免疫与现实修复系统报告_CN_2026-09-06.docx",
+      "size": 49212,
+      "paragraphs": 110,
+      "tables": 13,
+      "text_characters": 6867,
+      "render_rc": 0,
+      "pages": 17,
+      "blank_pages": []
+    }
+  ],
+  "browser_qa": {
+    "runtime": "static_fallback",
+    "passed": true,
+    "checks": [
+      {
+        "name": "overview",
+        "passed": true
+      },
+      {
+        "name": "clinic",
+        "passed": true
+      },
+      {
+        "name": "context",
+        "passed": true
+      },
+      {
+        "name": "relation",
+        "passed": true
+      },
+      {
+        "name": "knowledge",
+        "passed": true
+      },
+      {
+        "name": "addiction",
+        "passed": true
+      },
+      {
+        "name": "evidence",
+        "passed": true
+      },
+      {
+        "name": "share",
+        "passed": true
+      },
+      {
+        "name": "intervention",
+        "passed": true
+      },
+      {
+        "name": "repair",
+        "passed": true
+      },
+      {
+        "name": "protected",
+        "passed": true
+      },
+      {
+        "name": "receipts",
+        "passed": true
+      },
+      {
+        "name": "governance",
+        "passed": true
+      },
+      {
+        "name": "export",
+        "passed": true
+      }
+    ],
+    "network_requests": [],
+    "errors": [
+      "BrowserType.launch: Executable doesn't exist at /home/oai/.cache/ms-playwright/chromium_headless_shell-1200/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     playwright install                                     ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+      "RuntimeError('No browser executable')"
+    ]
+  },
+  "static_scan": {
+    "files_scanned": 17,
+    "findings": [],
+    "passed": true
+  },
+  "source_archive": {
+    "archive": "DIKWP_COGNITIVE_IMMUNE_QINGYUAN_27.0.0_source.zip",
+    "integrity": {
+      "entries": 73,
+      "bad": null
+    },
+    "test_rc": 0,
+    "test_count": 35,
+    "output": "...................................\n----------------------------------------------------------------------\nRan 35 tests in 0.005s\n\nOK\n"
+  }
+}

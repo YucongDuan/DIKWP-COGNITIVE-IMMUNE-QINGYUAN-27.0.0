@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QINGYUAN 27.0 — 主动认知免疫与现实修复</title>
+<style>
+:root{font-family:Inter,"Segoe UI","Microsoft YaHei",system-ui,sans-serif;color:#14201b;background:#edf2ee;line-height:1.55;--ink:#14201b;--muted:#607069;--panel:#fff;--line:#d7e0da;--accent:#1c6b50;--accent2:#dff2e9;--warn:#9a5d00;--danger:#a33b3b;--shadow:0 10px 34px rgba(20,32,27,.08)}*{box-sizing:border-box}body{margin:0}.shell{display:grid;grid-template-columns:270px 1fr;min-height:100vh}.sidebar{background:#10281f;color:#eaf4ef;padding:22px 15px;position:sticky;top:0;height:100vh;overflow:auto}.brand{display:flex;gap:12px;align-items:center;padding:4px 8px 19px;border-bottom:1px solid rgba(255,255,255,.14);margin-bottom:15px}.brand .logo{width:42px;height:42px;border-radius:13px;background:#e1f6ea;color:#124a38;display:grid;place-items:center;font-size:23px;font-weight:800}.brand strong,.brand span{display:block}.brand span{font-size:11px;opacity:.72;letter-spacing:.08em}nav{display:grid;gap:4px}nav button{border:0;background:transparent;color:#d9e9e1;text-align:left;border-radius:9px;padding:9px 11px;cursor:pointer}nav button:hover,nav button.active{background:rgba(255,255,255,.12);color:white}.side-note{font-size:11px;opacity:.65;margin:20px 8px}main{padding:0 32px 30px;max-width:1500px;width:100%;margin:auto}.topbar{display:flex;justify-content:space-between;align-items:center;padding:24px 0 18px;position:sticky;top:0;background:rgba(237,242,238,.92);backdrop-filter:blur(12px);z-index:5}.topbar h1{margin:0;font-size:26px}.topbar p{margin:2px 0 0;color:var(--muted)}.status{display:flex;gap:8px;align-items:center;font-size:13px;background:var(--panel);padding:8px 11px;border-radius:99px;border:1px solid var(--line)}.dot{width:9px;height:9px;border-radius:50%;background:#2a9d6f}.view{display:none}.view.active{display:block}.hero{background:linear-gradient(135deg,#153c2e,#1d6a4f);color:white;border-radius:20px;padding:34px;display:grid;grid-template-columns:1fr 220px;gap:20px;box-shadow:var(--shadow)}.hero h2{font-size:34px;line-height:1.2;margin:.35em 0}.hero p{max-width:850px;opacity:.88}.eyebrow{font-size:12px;letter-spacing:.13em;opacity:.74}.hero-badge{border:1px solid rgba(255,255,255,.26);border-radius:16px;display:grid;place-items:center;text-align:center;padding:18px}.hero-badge strong{font-size:70px;line-height:1}.hero-badge span{font-size:13px;opacity:.8}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:18px 0}.metrics article,.card{background:var(--panel);border:1px solid var(--line);border-radius:15px;box-shadow:var(--shadow)}.metrics article{padding:18px}.metrics b{display:block;font-size:27px;color:var(--accent)}.metrics span{font-size:13px;color:var(--muted)}.grid{display:grid;gap:16px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:22px;margin-bottom:16px}.card h2,.card h3{margin-top:0}.callout{background:#f1f8f4;border-left:5px solid var(--accent)}.form-card label{display:block;margin:12px 0;font-weight:650}.form-card input,.form-card select,.form-card textarea,.card textarea,.card input,.card select{width:100%;margin-top:5px;border:1px solid #bcc9c1;border-radius:9px;padding:10px;font:inherit;background:white}.inline{display:flex!important;align-items:center;gap:8px}.inline input{width:auto!important;margin:0!important}.checks{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.checks label{font-weight:400;margin:0}.checks input{width:auto;margin-right:5px}fieldset{border:1px solid var(--line);border-radius:10px}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}button{font:inherit}button.primary,button.danger,.actions button{border:1px solid #b8c7be;border-radius:9px;padding:9px 14px;background:white;cursor:pointer}.primary{background:var(--accent)!important;color:white;border-color:var(--accent)!important}.danger{color:white!important;background:var(--danger)!important;border-color:var(--danger)!important}.decision{padding:15px;border-radius:11px;background:var(--accent2);font-weight:800;margin-bottom:15px}.decision.muted{background:#eef1ef;color:var(--muted)}.decision.warn{background:#fff1d9;color:#7a4900}.decision.danger{background:#fde6e6;color:#852f2f}.score-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.score{border:1px solid var(--line);border-radius:9px;padding:9px}.score .row{display:flex;justify-content:space-between;font-size:12px}.bar,.meter{height:8px;border-radius:99px;background:#e4ebe7;overflow:hidden;margin-top:5px}.bar span,.meter span{display:block;height:100%;background:var(--accent);width:0}.world{padding:9px 0;border-bottom:1px solid var(--line)}.world b{display:flex;justify-content:space-between}.chips{display:flex;gap:7px;flex-wrap:wrap}.chip{background:#e7f2ec;border:1px solid #c8dfd2;border-radius:99px;padding:5px 9px;font-size:12px}.ladder{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-bottom:20px}.rung{border:1px solid var(--line);border-radius:10px;padding:12px;min-height:120px}.rung strong{display:block;color:var(--accent);font-size:18px}.rung.active{outline:3px solid #6db794}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid var(--line);text-align:left;padding:10px;vertical-align:top}th{background:#f1f5f2}blockquote{border-left:5px solid var(--accent);margin:0;padding:14px 18px;background:#f4f9f6}.meter{height:16px}.meter span{background:linear-gradient(90deg,#3c9d74,#d39b3a,#b94f4f)}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f3f6f4;border-radius:10px;padding:14px;max-height:470px;overflow:auto}footer{font-size:12px;color:var(--muted);text-align:center;padding:20px}output{float:right;color:var(--accent)}
+@media(max-width:900px){.shell{display:block}.sidebar{position:relative;height:auto}.sidebar nav{grid-template-columns:repeat(2,1fr)}main{padding:0 14px 24px}.topbar{position:relative}.hero{grid-template-columns:1fr}.metrics,.grid.two{grid-template-columns:1fr 1fr}.ladder{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.metrics,.grid.two{grid-template-columns:1fr}.sidebar nav{grid-template-columns:1fr 1fr}.topbar{align-items:flex-start}.status{display:none}.hero h2{font-size:27px}.score-grid{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand"><div class="logo">清</div><div><strong>QINGYUAN 27.0</strong><span>Active Cognitive Immune</span></div></div>
+    <nav id="nav">
+      <button data-view="overview" class="active">总览 / Overview</button>
+      <button data-view="clinic">内容体检 / Content Clinic</button>
+      <button data-view="context">语境补全 / Context Restore</button>
+      <button data-view="relation">关系影响 / Relationship</button>
+      <button data-view="knowledge">知识售卖审计 / Offer Audit</button>
+      <button data-view="addiction">成瘾回路 / Addiction Guard</button>
+      <button data-view="evidence">证据矩阵 / Evidence</button>
+      <button data-view="share">分享闸门 / Share Gate</button>
+      <button data-view="intervention">主动干预 / Intervention</button>
+      <button data-view="repair">现实修复 / Reality Repair</button>
+      <button data-view="protected">受保护表达 / Protected Speech</button>
+      <button data-view="receipts">回执 / Receipts</button>
+      <button data-view="governance">规则与治理 / Governance</button>
+      <button data-view="export">导出 / Export</button>
+    </nav>
+    <div class="side-note">Local-first · No account · No model API · No silent upload</div>
+  </aside>
+  <main>
+    <header class="topbar">
+      <div><h1 id="pageTitle">总览 / Overview</h1><p id="pageSubtitle">不清除负面情绪，主动削弱利用情绪获利的机制。</p></div>
+      <div class="status"><span class="dot"></span><span>离线本地运行</span></div>
+    </header>
+
+    <section id="overview" class="view active">
+      <div class="hero">
+        <div><div class="eyebrow">DIKWP · MESH96 · REALITY CLOSURE</div><h2>把“负能量”从模糊标签变成可审计的机制诊断</h2><p>系统保护批评、举报、悲伤、坏消息和求助；主动处理虚假、语境截断、操纵、成瘾、脆弱群体定向诱导、伪知识售卖与可验证关系伤害。</p></div>
+        <div class="hero-badge"><strong>0</strong><span>自动外部删帖、处罚与扣款权限</span></div>
+      </div>
+      <div class="metrics">
+        <article><b id="metricCases">0</b><span>已分析内容</span></article>
+        <article><b id="metricProtected">0</b><span>受保护表达</span></article>
+        <article><b id="metricFriction">0</b><span>主动摩擦建议</span></article>
+        <article><b id="metricReceipts">0</b><span>本地回执</span></article>
+      </div>
+      <div class="grid two">
+        <article class="card"><h3>系统主动消除什么</h3><ul><li>虚假确定性与伪造证据</li><li>截断主体、条件和负担的片面语境</li><li>羞耻、恐惧、身份战争和紧迫感操纵</li><li>无限滚动、自动播放、打卡和随机奖励回路</li><li>以知识名义包装的隐蔽售卖漏斗</li><li>已经产生的可验证现实伤害及其继续放大</li></ul></article>
+        <article class="card"><h3>系统明确保护什么</h3><ul><li>真实但令人不舒服的事实</li><li>科学反例与对权威的批评</li><li>举报、事故通报和受害者陈述</li><li>悲伤、焦虑、痛苦与求助</li><li>讽刺、文学和虚构（需保留语境）</li><li>对系统本身的纠错与申诉</li></ul></article>
+      </div>
+      <article class="card callout"><h3>关键区分</h3><p><b>内容的情绪色彩 ≠ 社会价值。</b> 一条污染事故通报可能“负面”却具有公共价值；一条快乐、励志、充满“正能量”的谎言可能造成真实伤害。</p></article>
+    </section>
+
+    <section id="clinic" class="view">
+      <div class="grid two">
+        <article class="card form-card"><h2>内容体检</h2>
+          <label>内容目的 / Purpose<select id="purpose"><option value="unspecified">未指定</option><option value="education">教育</option><option value="sales">售卖</option><option value="news">新闻</option><option value="criticism">批评</option><option value="whistleblowing">举报</option><option value="distress">求助或痛苦表达</option><option value="entertainment">娱乐</option></select></label>
+          <label>目标受众 / Audience<input id="audience" value="general"></label>
+          <label>粘贴文本<textarea id="contentText" rows="11" placeholder="输入帖子、视频文案、聊天内容或课程销售页……"></textarea></label>
+          <fieldset><legend>界面放大机制</legend><div class="checks" id="cueChecks">
+            <label><input type="checkbox" value="infinite_scroll">无限滚动</label><label><input type="checkbox" value="autoplay">自动播放</label><label><input type="checkbox" value="variable_reward">随机奖励</label><label><input type="checkbox" value="streak">连续打卡</label><label><input type="checkbox" value="rapid_push">高频推送</label><label><input type="checkbox" value="outrage_loop">愤怒循环</label>
+          </div></fieldset>
+          <div class="actions"><button class="primary" id="loadExample">载入家庭案例</button><button class="primary" id="analyzeBtn">开始体检</button><button id="clearBtn">清空</button></div>
+        </article>
+        <article class="card"><h2>诊断结果</h2><div id="primaryDecision" class="decision muted">尚未分析</div><div id="protectedFlag"></div><div id="scoreGrid" class="score-grid"></div><h3>多世界解释</h3><div id="worlds"></div><h3>主动动作</h3><div id="interventions" class="chips"></div></article>
+      </div>
+    </section>
+
+    <section id="context" class="view">
+      <div class="grid two"><article class="card"><h2>语境补全</h2><p>把一句口号拆成：合理核心、遗漏主体、条件、例外、负担、商业动机与可执行复盘。</p><button class="primary" id="contextBtn">基于当前文本补全</button><div id="contextMissing"></div></article><article class="card"><h2>修复后的表达</h2><blockquote id="contextRepair">等待生成。</blockquote><div id="contextRisk"></div></article></div>
+    </section>
+
+    <section id="relation" class="view">
+      <div class="grid two"><article class="card form-card"><h2>关系外部性模拟</h2>
+        <label>单边负担转移 <input id="relBurden" type="range" min="0" max="100" value="70"><output>70</output></label>
+        <label>贬低或妖魔化 <input id="relContempt" type="range" min="0" max="100" value="55"><output>55</output></label>
+        <label>孩子或依赖者风险 <input id="relDependent" type="range" min="0" max="100" value="45"><output>45</output></label>
+        <label>协商质量 <input id="relNegotiation" type="range" min="0" max="100" value="25"><output>25</output></label>
+        <label>现实资源支持 <input id="relSupport" type="range" min="0" max="100" value="30"><output>30</output></label>
+        <label class="inline"><input id="relViolence" type="checkbox">存在暴力或强迫控制（启用安全优先例外）</label><button class="primary" id="relationBtn">运行模拟</button>
+      </article><article class="card"><h2>关系结果</h2><div id="relationDecision" class="decision muted">尚未运行</div><div class="meter"><span id="relationMeter"></span></div><p id="relationText"></p><div class="callout"><b>原则：</b>普通冲突可用可逆试行和复盘；暴力与控制情境不能被“双方各退一步”掩盖。</div></article></div>
+    </section>
+
+    <section id="knowledge" class="view">
+      <div class="grid two"><article class="card form-card"><h2>知识售卖审计</h2><label>销售文案<textarea id="offerText" rows="8"></textarea></label><label>价格<input id="offerPrice" type="number" value="1999"></label><label>退款条款<input id="offerRefund" placeholder="例如：7天可退"></label><label>资质与责任主体<input id="offerCredentials"></label><label>独立证据链接数<input id="offerLinks" type="number" min="0" value="0"></label><button class="primary" id="offerBtn">审计</button></article><article class="card"><h2>商业与知识边界</h2><div id="offerDecision" class="decision muted">尚未审计</div><div id="offerDetails"></div><ol><li>样例和课程大纲是否可先看？</li><li>结果是否有独立验证，而非只有精选见证？</li><li>卖方、佣金、赞助、升级销售和数据用途是否披露？</li><li>失败、适用边界和不适合人群是否写明？</li><li>退款与纠错是否真实可执行？</li></ol></article></div>
+    </section>
+
+    <section id="addiction" class="view">
+      <div class="grid two"><article class="card form-card"><h2>成瘾回路体检</h2><label>每天使用分钟<input id="dailyMinutes" type="number" value="180"></label><label>夜间被打断次数<input id="nightInterruptions" type="number" value="3"></label><label>计划外打开次数<input id="unplannedOpens" type="number" value="12"></label><label>使用后焦虑/愤怒（0–100）<input id="postDistress" type="range" min="0" max="100" value="65"><output>65</output></label><button class="primary" id="addictionBtn">生成断路计划</button></article><article class="card"><h2>主动断路计划</h2><div id="addictionRisk" class="decision muted">尚未计算</div><div id="addictionPlan"></div></article></div>
+    </section>
+
+    <section id="evidence" class="view">
+      <article class="card"><h2>主张—证据矩阵</h2><p>把当前文本中的主张拆为“观察、来源陈述、推断、假设、价值判断、行动建议和结果”。</p><button class="primary" id="evidenceBtn">生成矩阵</button><div class="table-wrap"><table><thead><tr><th>主张片段</th><th>类型</th><th>当前证据</th><th>不能证明什么</th><th>下一验证</th></tr></thead><tbody id="evidenceBody"></tbody></table></div></article>
+    </section>
+
+    <section id="share" class="view">
+      <div class="grid two"><article class="card"><h2>分享前五问</h2><ol><li>它是事实、推断、情绪、建议还是广告？</li><li>来源能支持到哪一层？</li><li>省略了谁、什么条件和什么代价？</li><li>谁因我转发而获利，谁承担风险？</li><li>若错了，纠正能否到达同一受众？</li></ol><button class="primary" id="shareBtn">生成分享决定</button></article><article class="card"><h2>决定</h2><div id="shareDecision" class="decision muted">等待分析。</div><p id="shareReason"></p></article></div>
+    </section>
+
+    <section id="intervention" class="view"><article class="card"><h2>主动干预阶梯</h2><div class="ladder" id="ladder"></div><h3>当前案例计划</h3><div id="planOutput"></div></article></section>
+
+    <section id="repair" class="view">
+      <div class="grid two"><article class="card form-card"><h2>现实结果登记</h2><label>实际发生了什么<textarea id="outcomeText" rows="6" placeholder="例如：购买后退款困难、家庭冲突加剧、治疗延误、内容更正……"></textarea></label><label>结果严重度（0–100）<input id="outcomeSeverity" type="range" min="0" max="100" value="40"><output>40</output></label><label>是否已有独立证据<select id="outcomeEvidence"><option value="none">无</option><option value="self">本人记录</option><option value="stakeholder">相关方确认</option><option value="independent">独立核验</option></select></label><button class="primary" id="outcomeBtn">生成修复回执</button></article><article class="card"><h2>修复优先序</h2><ol><li>停止继续放大或继续售卖</li><li>通知受影响者并提供可理解更正</li><li>恢复退出、退款、删除和申诉能力</li><li>修复直接损害与错误负担转移</li><li>修改触发机制、商业激励和推荐结构</li><li>记录现实结果并修订模型</li></ol><div id="outcomeReceipt"></div></article></div>
+    </section>
+
+    <section id="protected" class="view"><div class="grid two"><article class="card"><h2>绝不能被“负能量”标签吞掉的表达</h2><ul><li>关于污染、事故、疾病和失业的真实坏消息</li><li>受害者、照护者和压力人群的痛苦陈述</li><li>对政府、企业、平台、家庭权力和本系统的批评</li><li>科学反例、失败实验和不受欢迎的数据</li><li>悲伤、焦虑、愤怒以及明确求助</li></ul></article><article class="card"><h2>保护不等于免责</h2><p>批评可以尖锐，但不能伪造证据、威胁、骚扰、泄露私人身份或发动现实伤害。系统应处理具体行为机制，而不是因观点令人不适就压制。</p><div class="callout">当“正能量治理”要求人们只能表达快乐时，它本身可能成为压制事实、阻止求助和保护强势方的操纵机制。</div></article></div></section>
+
+    <section id="receipts" class="view"><article class="card"><h2>本地回执链</h2><p>回执记录分析、补语境、分享决定和现实结果。它证明记录的连续性，不证明结论天然正确。</p><div class="actions"><button class="primary" id="verifyReceipts">验证回执链</button><button id="clearReceipts">清除回执</button></div><div id="receiptStatus"></div><pre id="receiptList"></pre></article></section>
+
+    <section id="governance" class="view"><div class="grid two"><article class="card"><h2>硬不变量</h2><pre>HUMAN_WORTH_RANKING_AUTHORITY = 0
+POLITICAL_VIEWPOINT_PENALTY_AUTHORITY = 0
+NEGATIVE_EMOTION_SUPPRESSION_AUTHORITY = 0
+PERSON_LEVEL_GOOD_BAD_LABEL = 0
+EXTERNAL_AUTOMATIC_DELETION_OR_SANCTION = 0
+EXTERNAL_AUTOMATIC_VALUE_TRANSFER = 0
+APPEAL_AND_CORRECTION_REQUIRED = 1
+REALITY_OUTCOME_RECEIPT_REQUIRED = 1</pre></article><article class="card"><h2>机构部署最低条件</h2><ol><li>来源和主张层级分离</li><li>至少两个非同构解释</li><li>先可逆干预，后更强措施</li><li>通知、答辩、申诉、到期和撤销</li><li>平台不得从“处罚”中直接获利</li><li>错误纠正应尽量到达相同受众</li><li>现实伤害、漏报和误报必须反向修订系统</li></ol></article></div></section>
+
+    <section id="export" class="view"><article class="card"><h2>导出与本地数据</h2><p>数据保存在当前浏览器。浏览器本地存储不是机密保险箱，请勿输入密码、验证码、私钥、完整身份证件、儿童身份或未脱敏医疗资料。</p><div class="actions"><button class="primary" id="exportBtn">导出完整JSON</button><button id="importBtn">导入JSON</button><input id="importFile" type="file" accept="application/json" hidden><button class="danger" id="resetBtn">清除全部本地数据</button></div><textarea id="exportPreview" rows="16" readonly></textarea></article></section>
+
+    <footer>DIKWP QINGYUAN 27.0 · Alpha research prototype · Content mechanisms, not human worth.</footer>
+  </main>
+</div>
+<script>
+window.QY_RULES={
+ ABS:["always","never","everyone","nobody","must","only way","guaranteed","100%","永远","从来","所有人","没人","必须","唯一","百分百","绝对","注定"],
+ SRC:["source","study","data","according to","doi","http://","https://","evidence","来源","研究","数据","根据","证据","链接","论文","报告","统计"],
+ CORR:["may","might","depends","uncertain","limitations","correction","counterexample","可能","取决于","不确定","边界","局限","更正","反例","需核实","条件是"],
+ MAN:["wake up","sheeple","if you really loved","you are weak","they don't want you to know","act now","last chance","prove you are","觉醒","真正觉醒","你不爱自己","韭菜","如果你真的爱","你太弱","不想让你知道","最后机会","马上","证明你是","不配","没救","认知低","愚蠢"],
+ ZERO:["choose yourself over everyone","cut them all off","your partner is the enemy","只爱自己","所有人都在消耗你","断绝所有关系","伴侣是敌人","婚姻就是博弈","谁妥协谁输","男人都","女人都","夫妻对抗","不能让步","必须赢","不能向家庭妥协","家庭都在消耗你"],
+ SALES:["buy now","course","coaching","private group","limited seats","affiliate","upsell","购买","课程","训练营","私域","加微信","名额有限","付费","咨询","变现","带货","直播间"],
+ PSEUDO:["scientifically proven","secret method","quantum healing","one trick","guaranteed transformation","科学证明","秘密方法","量子疗愈","一招","包治","保证逆袭","底层逻辑","认知觉醒","财富密码","宇宙能量","高维","磁场决定","绝密资料"],
+ VULN:["new mother","single mother","elderly","patient","debt","unemployed","student","caregiver","grieving","宝妈","新手妈妈","单亲","老人","患者","负债","失业","学生","照护者","丧亲","焦虑人群"],
+ PROT:["whistleblower","investigation","reported harm","grief","sad","victim statement","criticism","audit","举报","调查","受害者陈述","悲伤","痛苦","批评","审计","坏消息","事故通报","求助"],
+ PARTY:["partner","spouse","child","family","colleague","community","caregiver","recipient","伴侣","配偶","孩子","家庭","同事","社区","照护者","受益者","父亲","母亲"],
+ cueWeight:{infinite_scroll:.24,autoplay:.16,variable_reward:.22,streak:.14,rapid_push:.16,loot_box:.24,public_like_count:.08,outrage_loop:.20}
+};
+
+</script><script>
+(()=>{'use strict';
+const R=window.QY_RULES, $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const clamp=v=>Math.max(0,Math.min(1,Number(v)||0)), norm=s=>(s||'').toLowerCase().replace(/\s+/g,' ').trim();
+const hits=(t,arr)=>arr.filter(x=>norm(t).includes(x.toLowerCase()));
+const blank={cases:[],receipts:[],current:null,outcomes:[]};
+let state=load();
+function load(){try{return Object.assign(structuredClone(blank),JSON.parse(localStorage.getItem('qingyuan27')||'{}'))}catch(e){return structuredClone(blank)}}
+function save(){try{localStorage.setItem('qingyuan27',JSON.stringify(state))}catch(e){} updateMetrics()}
+function scoreText(text,purpose,cues=[]){
+ let t=norm(text),a=hits(t,R.ABS),src=hits(t,R.SRC),corr=hits(t,R.CORR),m=hits(t,R.MAN),z=hits(t,R.ZERO),sales=hits(t,R.SALES),pseudo=hits(t,R.PSEUDO),vuln=hits(t+' '+norm($('#audience')?.value||''),R.VULN),prot=hits(t,R.PROT),parties=hits(t,R.PARTY);
+ let evidence=clamp(.50+.08*src.length-.035*a.length-.07*pseudo.length); let careSlogan=/(照顾自己|爱自己|self-care|care for yourself)/.test(t)&&/(孩子|child|mother|妈妈|宝妈)/.test(t), careContext=/(协商|安全|暴力|资源|预算|替代照护|negotiate|safety|violence|resource|budget|substitute care)/.test(t); let context=clamp(.62+.07*corr.length+.04*Math.min(parties.length,3)-.06*a.length-.07*z.length-(sales.length&&!src.length?.10:0)-(careSlogan&&!careContext?.25:0));
+ let manipulation=clamp(.06+.12*(m.length+z.length)), interest=clamp(.08+.11*sales.length+(sales.length&&!/(sponsored|affiliate|广告|赞助|佣金)/.test(t)?.18:0));
+ let vulnerability=clamp(.04+.08*vuln.length+.09*m.length+(vuln.length&&sales.length?.12:0)), relational=clamp(.06+.12*z.length+(parties.length&&a.length?.05:0)+(/夫妻|spouse|partner/.test(t)?.10:0));
+ let pseudoRisk=clamp(.08+.15*pseudo.length+.08*sales.length-.06*src.length-.04*corr.length), corrigibility=clamp(.42+.10*corr.length+.05*src.length-.06*a.length-.05*m.length), addiction=.04;
+ cues.forEach(c=>addiction+=R.cueWeight[c]||.08); addiction=clamp(addiction);
+ let protectedPurposes=['criticism','whistleblowing','grief','distress','news','audit','research'];
+ let protectedExpression=(protectedPurposes.includes(purpose)||prot.length>0)&&manipulation<.45&&pseudoRisk<.45;
+ let candidates=[],actions=[];
+ if(protectedExpression){candidates.push([0,'PROTECTED_NEGATIVE_OR_CRITICAL_EXPRESSION']);actions.push('L0_PROTECT_EXPRESSION','PRESERVE_SOURCE_AND_CONTEXT')}
+ if(evidence<.48){candidates.push([1,'EVIDENCE_NEEDED']);actions.push('L1_EVIDENCE_LABEL','ASK_FOR_SOURCE_AND_FALSIFIER')}
+ if(context<.58){candidates.push([2,'CONTEXT_REPAIR_REQUIRED']);actions.push('L2_CONTEXT_COMPLETION_OVERLAY','SHOW_OMITTED_PARTIES_AND_EXCEPTIONS')}
+ if(manipulation>=.42){candidates.push([3,'MANIPULATION_FRICTION_REQUIRED']);actions.push('L3_SHARE_FRICTION','COOLING_OFF_AND_IDENTITY_PRESSURE_WARNING')}
+ if(addiction>=.38){candidates.push([4,'ADDICTION_CIRCUIT_BREAKER']);actions.push('L4_PAUSE_AUTOPLAY_AND_INFINITE_SCROLL','USER_CONTROLLED_SESSION_BREAK')}
+ if(pseudoRisk>=.48||(interest>=.52&&evidence<.55)){candidates.push([5,'PSEUDO_KNOWLEDGE_COMMERCIAL_HOLD']);actions.push('L5_HOLD_PURCHASE_OR_SHARE','DISCLOSE_PRICE_REFUND_UPSELL_EVIDENCE')}
+ if(vulnerability>=.48){candidates.push([5,'VULNERABLE_TARGET_PROTECTION']);actions.push('L5_REMOVE_PERSONALISED_PRESSURE','REQUIRE_PLAIN_LANGUAGE_AND_INDEPENDENT_REVIEW')}
+ if(relational>=.48){candidates.push([4,'RELATIONAL_ZERO_SUM_REPAIR']);actions.push('RELATIONAL_BURDEN_MAP','REVERSIBLE_TRIAL_AND_REVIEW_DATE')}
+ if(!candidates.length){candidates=[[0,'PASS_WITH_TRACEABLE_CONTEXT']];actions.push('L0_ALLOW','OPTIONAL_CONTEXT_CARD')}
+ candidates.sort((x,y)=>y[0]-x[0]);
+ let worlds=[
+  {name:'truthful_but_uncomfortable',support:clamp(.16+.36*evidence+.22*(1-manipulation)+(protectedExpression?.18:0)-.10*pseudoRisk),test:'独立来源是否确认核心事实'},
+  {name:'sincere_but_context_incomplete',support:clamp(.18+.35*(1-context)+.12*corrigibility-.10*manipulation),test:'被要求补条件时是否愿意补全'},
+  {name:'commercial_persuasion',support:clamp(.10+.38*interest+.08*Math.min(sales.length,3)),test:'是否完整披露价格、退款、利益和独立结果'},
+  {name:'manipulative_or_addictive_mechanism',support:clamp(.12+.30*manipulation+.20*pseudoRisk+.15*interest+.12*vulnerability),test:'移除压力线索后是否失去主要转化能力'},
+  {name:'distress_or_help_signal',support:clamp(.08+((purpose==='distress')?.35:0)+.12*prot.length),test:'表达者是否寻求支持而非强迫他人'}
+ ];
+ return {version:'27.0.0',text,purpose,audience:$('#audience')?.value||'general',protected_expression:protectedExpression,primary_class:candidates[0][1],scores:{evidence_integrity:evidence,context_completeness:context,manipulation_pressure:manipulation,addiction_pressure:addiction,interest_opacity:interest,vulnerability_exploitation:vulnerability,relational_externality:relational,pseudo_knowledge_risk:pseudoRisk,corrigibility},worlds,interventions:[...new Set(actions)],signals:{a,src,corr,m,z,sales,pseudo,vuln,prot},automatic_external_action_authority:0,claim_boundary:'Heuristic research output; not a diagnosis, legal finding, person-level moral label or authority for automatic external action.'};
+}
+const dimNames={evidence_integrity:'证据完整',context_completeness:'语境完整',manipulation_pressure:'操纵压力',addiction_pressure:'成瘾压力',interest_opacity:'利益不透明',vulnerability_exploitation:'脆弱性利用',relational_externality:'关系外部性',pseudo_knowledge_risk:'伪知识风险',corrigibility:'可纠正性'};
+function labelClass(c){return {'PROTECTED_NEGATIVE_OR_CRITICAL_EXPRESSION':'受保护的负面、批评或求助表达','EVIDENCE_NEEDED':'需要证据标记','CONTEXT_REPAIR_REQUIRED':'需要补全语境','MANIPULATION_FRICTION_REQUIRED':'需要主动增加摩擦','ADDICTION_CIRCUIT_BREAKER':'需要中断成瘾回路','PSEUDO_KNOWLEDGE_COMMERCIAL_HOLD':'应暂停购买或传播','VULNERABLE_TARGET_PROTECTION':'需要脆弱受众保护','RELATIONAL_ZERO_SUM_REPAIR':'需要修复零和关系漂移','PASS_WITH_TRACEABLE_CONTEXT':'可通过并保留语境'}[c]||c}
+async function digest(s){let b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+async function receipt(type,payload){let prev=state.receipts.length?state.receipts.at(-1).hash:'0'.repeat(64);let body={timestamp:new Date().toISOString(),event_type:type,payload,previous_hash:prev};body.hash=await digest(JSON.stringify(body));state.receipts.push(body);save();renderReceipts();return body}
+function cues(){return $$('#cueChecks input:checked').map(x=>x.value)}
+function renderAnalysis(r){state.current=r;$('#primaryDecision').textContent=labelClass(r.primary_class);$('#primaryDecision').className='decision '+((r.primary_class.includes('HOLD')||r.primary_class.includes('VULNERABLE'))?'danger':(r.primary_class.includes('FRICTION')||r.primary_class.includes('CONTEXT')||r.primary_class.includes('ADDICTION'))?'warn':'');$('#protectedFlag').innerHTML=r.protected_expression?'<div class="callout"><b>Protected expression:</b> 不因负面情绪、批评、举报或坏消息而压制。</div>':'';
+ $('#scoreGrid').innerHTML=Object.entries(r.scores).map(([k,v])=>`<div class="score"><div class="row"><span>${dimNames[k]||k}</span><b>${Math.round(v*100)}</b></div><div class="bar"><span style="width:${Math.round(v*100)}%"></span></div></div>`).join('');
+ $('#worlds').innerHTML=r.worlds.sort((a,b)=>b.support-a.support).map(w=>`<div class="world"><b><span>${w.name}</span><span>${Math.round(w.support*100)}%</span></b><small>区分观察：${w.test}</small></div>`).join('');
+ $('#interventions').innerHTML=r.interventions.map(x=>`<span class="chip">${x}</span>`).join('');renderPlan();updateMetrics();save();}
+async function runAnalysis(){let text=$('#contentText').value.trim();if(!text){alert('请先输入内容。');return}let r=scoreText(text,$('#purpose').value,cues());state.cases.push({at:new Date().toISOString(),result:r});renderAnalysis(r);await receipt('content_analysis',{primary:r.primary_class,protected:r.protected_expression,scores:r.scores,text_digest:await digest(text)});}
+function contextRepair(){let t=norm($('#contentText').value),family=(/(照顾自己|爱自己|self-care|care for yourself)/.test(t)&&/(孩子|child|mother|妈妈|宝妈)/.test(t));let missing=family?['孩子的安全与发展需要','伴侣与家庭劳动的真实分配','时间、收入与替代照护资源','暴力、强迫控制、严重健康风险例外','可执行的协商、试行和复盘日期']:['谁受到影响、谁承担负担','适用范围、条件与例外','来源与证据层级','利益冲突与销售动机','如何更正、证伪与复盘'];let repaired=family?'照护者的休息、健康与安全是家庭共同责任，但自我照顾不应被解释为把孩子的基本照护、风险或全部家务单边转移给另一方。应先明确孩子的安全与发展需要，再由伴侣、家庭成员或社会支持共同协商时间、劳动、预算和替代照护；若存在暴力、强迫控制、严重抑郁、单亲无支持或紧急健康风险，应优先寻求专业与公共支持，而不是用一句口号处理复杂处境。':'将断言改写为条件命题：明确受益者、受影响主体、证据、例外、负担分配、利益关系和复盘节点。';$('#contextMissing').innerHTML='<h3>遗漏语境</h3><ul>'+missing.map(x=>`<li>${x}</li>`).join('')+'</ul>';$('#contextRepair').textContent=repaired;$('#contextRisk').innerHTML='<p><b>风险：</b>局部合理原则若被绝对化，可能变成身份战争、单边负担转移或销售钩子。</p>';receipt('context_repair',{family_case:family,missing,repaired});}
+function relation(){let g=id=>Number($('#'+id).value)/100,violence=$('#relViolence').checked;if(violence){$('#relationDecision').textContent='SAFETY_FIRST_EXCEPTION';$('#relationText').textContent='存在暴力或强迫控制时，优先安全、专业支持和受保护决策；一般妥协不是首要干预。';$('#relationMeter').style.width='0%';return}let d=clamp(.38*g('relBurden')+.30*g('relContempt')+.22*g('relDependent')-.18*g('relNegotiation')-.12*g('relSupport')+.18);let mode=d>=.62?'HIGH_ZERO_SUM_DRIFT':d>=.35?'REPAIRABLE_TENSION':'COOPERATIVE_RANGE';$('#relationDecision').textContent=mode+' · '+Math.round(d*100);$('#relationDecision').className='decision '+(d>=.62?'danger':d>=.35?'warn':'');$('#relationMeter').style.width=Math.round(d*100)+'%';$('#relationText').textContent='建议显式列出孩子与照护者需要、双方劳动、收入、休息、替代资源和复盘日期；先做可撤销的小范围试行。';receipt('relationship_simulation',{mode,zero_sum_drift:d});}
+function offerAudit(){let t=norm($('#offerText').value),sales=hits(t,R.SALES),pseudo=hits(t,R.PSEUDO),src=hits(t,R.SRC),corr=hits(t,R.CORR),price=Number($('#offerPrice').value)||0,refund=$('#offerRefund').value,cred=$('#offerCredentials').value,links=Number($('#offerLinks').value)||0;let opacity=.18+.10*sales.length+(price&&!refund?.20:0)+(price&&!cred?.12:0),gap=.55+.12*pseudo.length-.10*src.length-.06*links-.06*corr.length,risk=clamp(.45*opacity+.55*gap),decision=risk>=.55?'PSEUDO_KNOWLEDGE_COMMERCIAL_HOLD':'ALLOW_WITH_DISCLOSURE_AND_EVIDENCE';$('#offerDecision').textContent=decision+' · '+Math.round(risk*100);$('#offerDecision').className='decision '+(risk>=.55?'danger':'');$('#offerDetails').innerHTML=`<p>销售线索：${sales.join('、')||'无'}<br>伪知识线索：${pseudo.join('、')||'无'}<br>来源线索：${src.join('、')||'无'}</p>`;receipt('knowledge_offer_audit',{risk,decision,price,sales,pseudo,source_count:src.length});}
+function addiction(){let min=Number($('#dailyMinutes').value)||0,night=Number($('#nightInterruptions').value)||0,open=Number($('#unplannedOpens').value)||0,dist=Number($('#postDistress').value)||0;let risk=clamp(min/480*.35+night/8*.22+open/30*.20+dist/100*.23);$('#addictionRisk').textContent=(risk>=.65?'HIGH CIRCUIT RISK':risk>=.38?'MODERATE CIRCUIT RISK':'LOWER CIRCUIT RISK')+' · '+Math.round(risk*100);$('#addictionRisk').className='decision '+(risk>=.65?'danger':risk>=.38?'warn':'');let plan=[`关闭自动播放和非必要推送至少7天`,`把应用移出主屏并在打开前写下目的`,`每${risk>=.65?20:35}分钟强制离屏休息`,`睡前90分钟禁用推荐流`,`隐藏点赞、连胜和随机奖励线索`,`记录使用前后情绪，7天后根据现实结果调整`];$('#addictionPlan').innerHTML='<ol>'+plan.map(x=>`<li>${x}</li>`).join('')+'</ol>';receipt('addiction_plan',{risk,plan});}
+function evidenceMatrix(){let text=$('#contentText').value||'',parts=text.split(/[。！？.!?\n]+/).map(x=>x.trim()).filter(Boolean).slice(0,8);if(!parts.length)parts=['尚未输入主张'];$('#evidenceBody').innerHTML=parts.map(p=>{let type=/(应该|必须|should|must)/i.test(p)?'行动建议':/(可能|推测|may|might)/i.test(p)?'推断/假设':/(我觉得|我感到|I feel)/i.test(p)?'体验陈述':'事实性主张';let ev=hits(p,R.SRC).length?'存在来源线索':'未见来源';return `<tr><td>${esc(p)}</td><td>${type}</td><td>${ev}</td><td>不能单独证明普遍因果、适用于所有人或无例外</td><td>原始记录、独立来源、反例和受影响者结果</td></tr>`}).join('');receipt('evidence_matrix',{claims:parts.length});}
+function share(){if(!state.current){$('#shareDecision').textContent='先完成内容体检。';return}let s=state.current.scores,hold=s.manipulation_pressure>=.42||s.pseudo_knowledge_risk>=.48||s.context_completeness<.5||s.addiction_pressure>=.5;let label=hold?'PAUSE — 先补证据、语境或冷却后再决定':'SHARE WITH CONTEXT — 可分享但保留来源、边界和纠错';$('#shareDecision').textContent=label;$('#shareDecision').className='decision '+(hold?'danger':'');$('#shareReason').textContent=hold?'当前存在操纵、伪知识、语境截断或成瘾放大风险。':'未发现需要暂停的强信号，但仍应保留来源与纠错。';receipt('share_gate',{decision:label});}
+function renderPlan(){let levels=[['L0','保护与保留'],['L1','证据标记'],['L2','补全语境'],['L3','分享摩擦'],['L4','用户降放大'],['L5','本地隔离/商业暂停'],['L6','正当程序修复']];let actions=state.current?.interventions||[];let active=state.current?.primary_class||'';let idx=active.includes('VERIFIED')?6:active.includes('HOLD')||active.includes('VULNERABLE')?5:active.includes('ADDICTION')||active.includes('RELATIONAL')?4:active.includes('MANIPULATION')?3:active.includes('CONTEXT')?2:active.includes('EVIDENCE')?1:0;$('#ladder').innerHTML=levels.map((x,i)=>`<div class="rung ${i===idx?'active':''}"><strong>${x[0]}</strong><b>${x[1]}</b><p>${['不压制真实坏消息和求助','标明不确定与来源','显示遗漏主体和例外','冷却、确认、减少冲动转发','暂停自动播放、滚动和随机奖励','高风险内容由用户隔离；售卖需补披露','更正触达、申诉、返还和机制修复'][i]}</p></div>`).join('');$('#planOutput').innerHTML=actions.length?'<div class="chips">'+actions.map(x=>`<span class="chip">${x}</span>`).join('')+'</div>':'<p>先完成内容体检。</p>'}
+async function outcome(){let text=$('#outcomeText').value.trim(),severity=Number($('#outcomeSeverity').value)/100,evidence=$('#outcomeEvidence').value;if(!text){alert('请描述现实结果。');return}let action=severity>=.65?'STOP_AMPLIFICATION_AND_OPEN_REPAIR':severity>=.35?'CORRECT_AND_MONITOR':'RECORD_AND_REVIEW';let rec=await receipt('reality_outcome',{text,severity,evidence,action});state.outcomes.push(rec);save();$('#outcomeReceipt').innerHTML=`<div class="decision ${severity>=.65?'danger':severity>=.35?'warn':''}">${action}</div><p>回执：${rec.hash.slice(0,20)}…</p>`}
+async function verifyReceipts(){let prev='0'.repeat(64),valid=true;for(const r of state.receipts){if(r.previous_hash!==prev){valid=false;break}let body={timestamp:r.timestamp,event_type:r.event_type,payload:r.payload,previous_hash:r.previous_hash};if(await digest(JSON.stringify(body))!==r.hash){valid=false;break}prev=r.hash}$('#receiptStatus').innerHTML=`<div class="decision ${valid?'':'danger'}">${valid?'VALID':'INVALID'} · ${state.receipts.length} records</div>`}
+function renderReceipts(){$('#receiptList').textContent=state.receipts.slice(-20).map(r=>`${r.timestamp}  ${r.event_type}\n${r.hash}`).join('\n\n')||'暂无回执。'}
+function updateMetrics(){$('#metricCases').textContent=state.cases.length;$('#metricProtected').textContent=state.cases.filter(x=>x.result?.protected_expression).length;$('#metricFriction').textContent=state.cases.filter(x=>/FRICTION|HOLD|ADDICTION|RELATIONAL|VULNERABLE/.test(x.result?.primary_class||'')).length;$('#metricReceipts').textContent=state.receipts.length}
+function exportAll(){let payload={package_version:'27.0.0',exported_at:new Date().toISOString(),case:state.current?{text:state.current.text,purpose:state.current.purpose}:null,analysis:state.current,intervention_plan:{actions:state.current?.interventions||[],external_automatic_action_authority:0},receipts:state.receipts,outcomes:state.outcomes,hard_invariants:{human_worth_ranking:0,political_viewpoint_penalty:0,negative_emotion_suppression:0,external_automatic_action:0}};let txt=JSON.stringify(payload,null,2);$('#exportPreview').value=txt;let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([txt],{type:'application/json'}));a.download='qingyuan27-cognitive-immunity-package.cipkg.json';a.click();URL.revokeObjectURL(a.href)}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function bind(){
+ $$('#nav button').forEach(b=>b.onclick=()=>{$$('#nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');$$('.view').forEach(v=>v.classList.remove('active'));$('#'+b.dataset.view).classList.add('active');$('#pageTitle').textContent=b.textContent;window.scrollTo({top:0,behavior:'smooth'})});
+ $$('input[type=range]').forEach(x=>x.oninput=()=>x.nextElementSibling&&(x.nextElementSibling.value=x.value));
+ $('#loadExample').onclick=()=>{$('#contentText').value='女性要先好好照顾自己才能照顾孩子。真正觉醒的女人不能向家庭妥协，马上加入训练营。';$('#purpose').value='education';$('#audience').value='caregivers';$$('#cueChecks input').forEach(x=>x.checked=['autoplay','infinite_scroll','outrage_loop'].includes(x.value))};
+ $('#analyzeBtn').onclick=runAnalysis;$('#clearBtn').onclick=()=>{$('#contentText').value='';state.current=null;save()};$('#contextBtn').onclick=contextRepair;$('#relationBtn').onclick=relation;$('#offerBtn').onclick=offerAudit;$('#addictionBtn').onclick=addiction;$('#evidenceBtn').onclick=evidenceMatrix;$('#shareBtn').onclick=share;$('#outcomeBtn').onclick=outcome;$('#verifyReceipts').onclick=verifyReceipts;$('#clearReceipts').onclick=()=>{if(confirm('清除全部本地回执？')){state.receipts=[];save();renderReceipts()}};$('#exportBtn').onclick=exportAll;$('#importBtn').onclick=()=>$('#importFile').click();$('#importFile').onchange=e=>{let f=e.target.files[0];if(!f)return;let r=new FileReader();r.onload=()=>{try{let x=JSON.parse(r.result);state=Object.assign(structuredClone(blank),x.state||x);save();location.reload()}catch(err){alert('JSON无效')}};r.readAsText(f)};$('#resetBtn').onclick=()=>{if(confirm('清除全部本地数据？')){localStorage.removeItem('qingyuan27');state=structuredClone(blank);location.reload()}};
+ }
+ bind();updateMetrics();renderReceipts();renderPlan();if(state.current)renderAnalysis(state.current);
+})();
+
+</script>
+</body></html>

@@ -1,0 +1,2 @@
+chrome.runtime.onInstalled.addListener(()=>{chrome.contextMenus.create({id:'qingyuan-analyze',title:'Analyze selection with QINGYUAN',contexts:['selection']})});
+chrome.contextMenus.onClicked.addListener(async(info,tab)=>{if(info.menuItemId!=='qingyuan-analyze'||!tab?.id)return;await chrome.scripting.executeScript({target:{tabId:tab.id},files:['guard.js']});chrome.tabs.sendMessage(tab.id,{type:'QINGYUAN_ANALYZE',text:info.selectionText||''}).catch(()=>{})});

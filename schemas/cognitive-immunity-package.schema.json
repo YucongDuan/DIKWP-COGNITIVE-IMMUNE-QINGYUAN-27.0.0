@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "package_version",
+    "case",
+    "analysis",
+    "intervention_plan",
+    "receipts"
+  ],
+  "properties": {
+    "package_version": {
+      "const": "27.0.0"
+    },
+    "case": {
+      "type": "object"
+    },
+    "analysis": {
+      "type": "object"
+    },
+    "intervention_plan": {
+      "type": "object"
+    },
+    "receipts": {
+      "type": "array"
+    }
+  }
+}

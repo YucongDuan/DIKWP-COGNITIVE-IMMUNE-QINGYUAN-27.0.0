@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "case": "demo_analysis",
+      "valid": true
+    },
+    {
+      "case": "demo_package",
+      "valid": true
+    },
+    {
+      "case": "receipts",
+      "valid": true,
+      "count": 3
+    }
+  ]
+}

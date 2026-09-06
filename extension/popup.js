@@ -1,0 +1,3 @@
+async function active(){let [t]=await chrome.tabs.query({active:true,currentWindow:true});return t}
+async function run(msg){let t=await active();if(!t?.id)return;await chrome.scripting.executeScript({target:{tabId:t.id},files:['guard.js']});await chrome.tabs.sendMessage(t.id,msg).catch(()=>{})}
+document.querySelector('#analyze').onclick=()=>run({type:'QINGYUAN_ANALYZE_SELECTION'});document.querySelector('#pause').onclick=()=>run({type:'QINGYUAN_PAUSE_MEDIA'});document.querySelector('#dim').onclick=()=>run({type:'QINGYUAN_TOGGLE_DIM'});document.querySelector('#break').onclick=()=>run({type:'QINGYUAN_BREAK'});
