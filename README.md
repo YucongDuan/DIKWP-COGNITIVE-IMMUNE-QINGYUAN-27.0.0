@@ -1,5 +1,7 @@
 # DIKWP Active Cognitive Immune & Reality Repair / QINGYUAN 27.0.0
 
+Created by Yucong Duan (段玉聪).
+
 > Do not suppress negative emotion; suppress mechanisms that exploit emotion. Do not hide bad news; restore evidence and context. Do not label people as bad; constrain observable harmful conduct and amplification mechanisms.
 
 QINGYUAN is an offline-first research prototype for detecting and actively weakening false claims, unverifiable pseudo-knowledge, context stripping, identity pressure, zero-sum relationship narratives, addictive interface design, vulnerable-audience exploitation, concealed sales funnels and verified real-world harm.
@@ -30,4 +32,8 @@ This release is one node in Yucong Duan's open DIKWP research ecosystem. Explore
 
 ## Dedication and attribution boundary
 
-This open research project is dedicated with love to **Duan Dikweipu (段迪克维普)**, daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.
+This open research project is dedicated with love to Duan Dikweipu (段迪克维普), daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.
+
+## Current interface presentation
+
+[Open the interface source](app/index.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
